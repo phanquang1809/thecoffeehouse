@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+
+    <link rel="short icon" type="image" href="../img/thecoffeehouse_logo.png">
+    <title>The Coffee House</title>
+    <style>
+        .navbar {
+            background-color: white !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="spinner-overlay">
+        <div class="spinner-container">
+            <img src="../img/logo_load.jpg" alt="Logo" class="custom-logo">
+        </div>
+    </div>
+    <script src="../script/load.js"></script>
+    <div class="top-bar">
+        <div class="top-bar-info">
+            <div>
+                <a href="#">
+                    <img src="../img/vector_706a88566eab4f009bed6eea93cd890b.png" alt="">
+                    <span>133 Cửa hàng khắp cả nước</span>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="../img/group_8de276faa50c486b9d485826c506803b.png" alt="">
+                    <span>Đặt hàng: 1800.6936</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../img/The-Coffee-House-Logo-PNG-2.png" width="200px"
+                        height="35px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <div class="underline-container">
+                                <a class="nav-link fw-bold underline-hover" aria-current="page" href="#">Cà
+                                    phê</a>
+                                <div class="underline"></div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="underline-container">
+                                <a class="nav-link fw-bold underline-hover" href="#">Trà</a>
+                                <div class="underline"></div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="menu">
+                                <div class="underline-container">
+                                    <a class="nav-link dropdown-toggle fw-bold underline-hover"
+                                        href="./collection.html?category=all" id="navbarDropdown" role="button"
+                                        aria-expanded="false">
+                                        Menu
+                                    </a>
+                                    <div class="underline"></div>
+                                </div>
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown-item"><a href="./collection.html?category=all">Tất
+                                            Cả</a></div>
+                                    <div class="custom-dropdown-item"><a href="./collection.html?category=caphe">Cà
+                                            Phê</a>
+                                        <ul>
+                                            <li><a href="./collection.html?category=caphehighlight">Cà Phê
+                                                    Highlight</a></li>
+                                            <li><a href="./collection.html?category=caphevn">Cà Phê Việt Nam</a>
+                                            </li>
+                                            <li><a href="./collection.html?category=caphemay">Cà Phê Máy</a></li>
+                                            <li><a href="./collection.html?category=coldbrew">Cold Brew</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-dropdown-item"><a href="./collection.html?category=tra">Trà</a>
+                                        <ul>
+                                            <li><a href="./collection.html?category=tratraicay">Trà trái cây</a></li>
+                                            <li><a href="./collection.html?category=macchiato">Trà sữa Macchiato</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-dropdown-item"><a
+                                            href="./collection.html?category=cloud">Cloud</a>
+                                        <ul>
+                                            <li><a href="./collection.html?category=cloudfee">CloudFee</a></li>
+                                            <li><a href="./collection.html?category=cloudteamochi">CloudTea Mochi</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-dropdown-item"><a href="./collection.html?category=hitea">Hi-Tea
+                                            Healthy</a>
+                                        <ul>
+                                            <li><a href="./collection.html?category=hiteatra">Hi-Tea Trà</a></li>
+                                            <li><a href="./collection.html?category=hiteadatuyet">Hi-Tea Đá Tuyết</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-dropdown-item"><a
+                                            href="./collection.html?category=traxanh-choco">Trà Xanh - Chocolate</a>
+                                        <ul>
+                                            <li><a href="./collection.html?category=traxanh">Trà Xanh Tây Bắc</a></li>
+                                            <li><a href="./collection.html?category=chocolate">Chocolate</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-dropdown-item"><a href="./collection.html?category=daxay">Thức
+                                            uống đá xay</a>
+                                        <ul>
+                                            <li><a href="./collection.html?category=daxayfrosty">Đá xay Frosty</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-dropdown-item"><a
+                                            href="./collection.html?category=banh-snack">Bánh & Snack</a>
+                                        <ul>
+                                            <li><a href="./collection.html?category=banhman">Bánh mặn</a></li>
+                                            <li><a href="./collection.html?category=banhngot">Bánh ngọt</a></li>
+                                            <li><a href="">Snack</a></li>
+                                            <li><a href="./collection.html?category=banhpastry">Bánh Pastry</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-dropdown-item"><a href="./collection.html?category=tainha">Thưởng
+                                            Thức Tại Nhà</a>
+                                        <ul>
+                                            <li><a href="./collection.html?category=caphetainha">Cà phê tại nhà</a></li>
+                                            <li><a href="./collection.html?category=chaifresh0da">Chai Fresh Không
+                                                    Đá</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="nav-item">
+                            <div class="menu">
+                                <div class="underline-container">
+                                    <a class="nav-link dropdown-toggle fw-bold underline-hover" href="#"
+                                        id="navbarDropdown" role="button" aria-expanded="false">
+                                        Chuyện Nhà
+                                    </a>
+                                    <div class="underline"></div>
+                                </div>
+                                <div class="custom-dropdown menu-blog">
+                                    <div class="custom-dropdown-item"><a href="">Coffeeholic</a>
+                                        <ul>
+                                            <li><a href="">#chuyencaphe</a></li>
+                                            <li><a href="">#phacaphe</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="custom-dropdown-item"><a href="">Teaholic</a>
+                                        <ul>
+                                            <li><a href="">#phatra</a></li>
+                                            <li><a href="">#cauchuyenvetra</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-dropdown-item"><a href="">Blog</a>
+                                        <ul>
+                                            <li><a href="">#inthemood</a></li>
+                                            <li><a href="">#Review</a></li>
+                                            <li><a href="">#HumanofTCH</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Tất Cả</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Cà Phê</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">Cà Phê Highlight</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">Cà Phê Việt Nam</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">Cà Phê Máy</a></li>
+                                        <li><a class="dropdown-subitem" href="#">Cold Brew</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Trà</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">Trà trái cây</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">Macchiato</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Cloud</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">CloudFee</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">CloudTea Mochi</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Hi-Tea Healthy</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">Hi-Tea Trà</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">Hi-Tea Đá Tuyết</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Trà Xanh - Chocolate</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">Trà Xanh Tây Bắc</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">Chocolate</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Thức uống đá xay</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">Đá xay Frosty</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Bánh - Snack</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">Bánh mặn</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">Bánh ngọt</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">Bánh Pastry</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Thưởng thức tại nhà</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">Cà Phê Tại Nhà</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">Chai Fresh Không Đá</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Chuyện nhà
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#">Coffeeholic</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">#chuyencaphe</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">#phacaphe</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Teaholic</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">#phatra</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">#cauchuyenvetra</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Blog</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">#inthemood</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">#Review</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">#HumanofTCH</a></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <div class="underline-container">
+                                <a class="nav-link fw-bold underline-hover" href="#">Cảm hứng CloudFee</a>
+                                <div class="underline"></div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="underline-container">
+                                <a class="nav-link fw-bold underline-hover" href="#">Cửa hàng</a>
+                                <div class="underline"></div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="underline-container">
+                                <a class="nav-link fw-bold underline-hover" href="./register.html">Tuyển dụng</a>
+                                <div class="underline"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="./Collection.html?category=all">Menu</a></li>
+                        <li class="breadcrumb-item"><a class="breadcrumb-category" href=""></a></li>
+                        <li class="breadcrumb-item breadcrumb-title"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="product-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 product-info-img">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div id="thumb-carousel">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <div class="product-item-info" parent-id="">
+                                <div class="product-item-title">
+                                </div>
+                                <div class="product-item-price">
+                                </div>
+                            </div>
+                            <div class="option-size">
+                                <div class="option-size-title">Chọn size (bắt buộc)</div>
+                                <div class="product-option">
+                                    <div class="product-option-item" data-price="0">
+                                        <svg viewBox="0 0 13 16" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="shape "
+                                                d="M11.6511 1.68763H10.3529V0.421907C10.3529 0.194726 10.1582 0 9.93104 0H2.17444C1.94726 0 1.75254 0.194726 1.75254 0.421907V1.65517H0.454361C0.194726 1.68763 0 1.88235 0 2.10953V4.18661C0 4.41379 0.194726 4.60852 0.421907 4.60852H1.33063L1.72008 8.8925L1.78499 9.76876L2.30426 15.6105C2.33671 15.8377 2.49899 16 2.72617 16H9.28195C9.50913 16 9.70385 15.8377 9.70385 15.6105L10.2231 9.76876L10.288 8.8925L10.6775 4.60852H11.5862C11.8134 4.60852 12.0081 4.41379 12.0081 4.18661V2.10953C12.073 1.88235 11.8783 1.68763 11.6511 1.68763ZM2.56389 8.40568H3.50507C3.47262 8.56795 3.47262 8.73022 3.47262 8.8925C3.47262 9.02231 3.47262 9.15213 3.50507 9.28195H2.66126L2.6288 8.92495L2.56389 8.40568ZM9.47667 8.92495L9.44422 9.28195H8.56795C8.60041 9.15213 8.60041 9.02231 8.60041 8.8925C8.60041 8.73022 8.56795 8.56795 8.56795 8.40568H9.50913L9.47667 8.92495ZM7.72414 8.8925C7.72414 9.83367 6.97769 10.5801 6.03651 10.5801C5.09534 10.5801 4.34888 9.83367 4.34888 8.8925C4.34888 7.95132 5.09534 7.20487 6.03651 7.20487C6.97769 7.20487 7.72414 7.95132 7.72414 8.8925ZM8.92495 15.1562H3.18053L2.72617 10.1582H3.82961C4.28398 10.9371 5.09534 11.4564 6.03651 11.4564C6.97769 11.4564 7.8215 10.9371 8.24341 10.1582H9.34686L8.92495 15.1562ZM9.60649 7.52941H8.21095C7.75659 6.81542 6.94523 6.3286 6.03651 6.3286C5.12779 6.3286 4.31643 6.81542 3.86207 7.52941H2.49899L2.23935 4.60852H9.86613L9.60649 7.52941ZM11.1968 3.73225H10.3205H1.75254H0.876268V2.56389H2.17444H2.2069H2.23935H8.27586C8.50304 2.56389 8.69777 2.36917 8.69777 2.14199C8.69777 1.91481 8.50304 1.72008 8.27586 1.72008H2.6288V0.876268H9.47667V2.10953C9.47667 2.33671 9.6714 2.53144 9.89858 2.53144H11.1968V3.73225Z">
+                                            </path>
+                                        </svg>
+                                        Nhỏ + 0đ
+                                    </div>
+                                    <div class="product-option-item" data-price="6000">
+                                        <svg viewBox="0 0 13 16" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="shape "
+                                                d="M11.6511 1.68763H10.3529V0.421907C10.3529 0.194726 10.1582 0 9.93104 0H2.17444C1.94726 0 1.75254 0.194726 1.75254 0.421907V1.65517H0.454361C0.194726 1.68763 0 1.88235 0 2.10953V4.18661C0 4.41379 0.194726 4.60852 0.421907 4.60852H1.33063L1.72008 8.8925L1.78499 9.76876L2.30426 15.6105C2.33671 15.8377 2.49899 16 2.72617 16H9.28195C9.50913 16 9.70385 15.8377 9.70385 15.6105L10.2231 9.76876L10.288 8.8925L10.6775 4.60852H11.5862C11.8134 4.60852 12.0081 4.41379 12.0081 4.18661V2.10953C12.073 1.88235 11.8783 1.68763 11.6511 1.68763ZM2.56389 8.40568H3.50507C3.47262 8.56795 3.47262 8.73022 3.47262 8.8925C3.47262 9.02231 3.47262 9.15213 3.50507 9.28195H2.66126L2.6288 8.92495L2.56389 8.40568ZM9.47667 8.92495L9.44422 9.28195H8.56795C8.60041 9.15213 8.60041 9.02231 8.60041 8.8925C8.60041 8.73022 8.56795 8.56795 8.56795 8.40568H9.50913L9.47667 8.92495ZM7.72414 8.8925C7.72414 9.83367 6.97769 10.5801 6.03651 10.5801C5.09534 10.5801 4.34888 9.83367 4.34888 8.8925C4.34888 7.95132 5.09534 7.20487 6.03651 7.20487C6.97769 7.20487 7.72414 7.95132 7.72414 8.8925ZM8.92495 15.1562H3.18053L2.72617 10.1582H3.82961C4.28398 10.9371 5.09534 11.4564 6.03651 11.4564C6.97769 11.4564 7.8215 10.9371 8.24341 10.1582H9.34686L8.92495 15.1562ZM9.60649 7.52941H8.21095C7.75659 6.81542 6.94523 6.3286 6.03651 6.3286C5.12779 6.3286 4.31643 6.81542 3.86207 7.52941H2.49899L2.23935 4.60852H9.86613L9.60649 7.52941ZM11.1968 3.73225H10.3205H1.75254H0.876268V2.56389H2.17444H2.2069H2.23935H8.27586C8.50304 2.56389 8.69777 2.36917 8.69777 2.14199C8.69777 1.91481 8.50304 1.72008 8.27586 1.72008H2.6288V0.876268H9.47667V2.10953C9.47667 2.33671 9.6714 2.53144 9.89858 2.53144H11.1968V3.73225Z">
+                                            </path>
+                                        </svg>
+                                        Vừa + 6.000đ
+                                    </div>
+                                    <div class="product-option-item" data-price="16000">
+                                        <svg viewBox="0 0 13 16" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="shape "
+                                                d="M11.6511 1.68763H10.3529V0.421907C10.3529 0.194726 10.1582 0 9.93104 0H2.17444C1.94726 0 1.75254 0.194726 1.75254 0.421907V1.65517H0.454361C0.194726 1.68763 0 1.88235 0 2.10953V4.18661C0 4.41379 0.194726 4.60852 0.421907 4.60852H1.33063L1.72008 8.8925L1.78499 9.76876L2.30426 15.6105C2.33671 15.8377 2.49899 16 2.72617 16H9.28195C9.50913 16 9.70385 15.8377 9.70385 15.6105L10.2231 9.76876L10.288 8.8925L10.6775 4.60852H11.5862C11.8134 4.60852 12.0081 4.41379 12.0081 4.18661V2.10953C12.073 1.88235 11.8783 1.68763 11.6511 1.68763ZM2.56389 8.40568H3.50507C3.47262 8.56795 3.47262 8.73022 3.47262 8.8925C3.47262 9.02231 3.47262 9.15213 3.50507 9.28195H2.66126L2.6288 8.92495L2.56389 8.40568ZM9.47667 8.92495L9.44422 9.28195H8.56795C8.60041 9.15213 8.60041 9.02231 8.60041 8.8925C8.60041 8.73022 8.56795 8.56795 8.56795 8.40568H9.50913L9.47667 8.92495ZM7.72414 8.8925C7.72414 9.83367 6.97769 10.5801 6.03651 10.5801C5.09534 10.5801 4.34888 9.83367 4.34888 8.8925C4.34888 7.95132 5.09534 7.20487 6.03651 7.20487C6.97769 7.20487 7.72414 7.95132 7.72414 8.8925ZM8.92495 15.1562H3.18053L2.72617 10.1582H3.82961C4.28398 10.9371 5.09534 11.4564 6.03651 11.4564C6.97769 11.4564 7.8215 10.9371 8.24341 10.1582H9.34686L8.92495 15.1562ZM9.60649 7.52941H8.21095C7.75659 6.81542 6.94523 6.3286 6.03651 6.3286C5.12779 6.3286 4.31643 6.81542 3.86207 7.52941H2.49899L2.23935 4.60852H9.86613L9.60649 7.52941ZM11.1968 3.73225H10.3205H1.75254H0.876268V2.56389H2.17444H2.2069H2.23935H8.27586C8.50304 2.56389 8.69777 2.36917 8.69777 2.14199C8.69777 1.91481 8.50304 1.72008 8.27586 1.72008H2.6288V0.876268H9.47667V2.10953C9.47667 2.33671 9.6714 2.53144 9.89858 2.53144H11.1968V3.73225Z">
+                                            </path>
+                                        </svg>
+                                        Lớn + 16.000đ
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="option-topping">
+                                <div class="option-size-title">Topping</div>
+                                <div class="product-option">
+                                    <div id="topp1" class="option-item">
+                                        <div class="product-topping-item">Shot Espresso + 10.000đ</div>
+                                    </div>
+                                    <div id="topp2" class="option-item">
+                                        <div class="product-topping-item">Trân châu trắng + 10.000đ</div>
+                                    </div>
+                                    <div id="topp3" class="option-item">
+                                        <div class="product-topping-item" readonly>Sốt Caramel + 10.000đ</div>
+                                    </div>
+                                    <div id="topp4" class="option-item">
+                                        <div class="product-topping-item" readonly>Trái Vải + 10.000đ</div>
+                                    </div>
+                                    <div id="topp5" class="option-item">
+                                        <div class="product-topping-item" readonly>Đào Miếng + 10.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-cart">
+                                <a href="">
+                                    <svg width="21" height="21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14 0C14.5523 0 15 0.447715 15 1V1.999L20 2V8L17.98 7.999L20.7467 15.5953C20.9105 16.032 21 16.5051 21 16.999C21 19.2082 19.2091 20.999 17 20.999C15.1368 20.999 13.5711 19.7251 13.1265 18.0008L8.87379 18.0008C8.42948 19.7256 6.86357 21 5 21C3.05513 21 1.43445 19.612 1.07453 17.7725C0.435576 17.439 0 16.7704 0 16V3C0 2.44772 0.447715 2 1 2H8C8.55228 2 9 2.44772 9 3V11C9 11.5128 9.38604 11.9355 9.88338 11.9933L10 12H12C12.5128 12 12.9355 11.614 12.9933 11.1166L13 11V2H10V0H14ZM5 15C3.89543 15 3 15.8954 3 17C3 18.1046 3.89543 19 5 19C6.10457 19 7 18.1046 7 17C7 15.8954 6.10457 15 5 15ZM17 14.999C15.8954 14.999 15 15.8944 15 16.999C15 18.1036 15.8954 18.999 17 18.999C18.1046 18.999 19 18.1036 19 16.999C19 15.8944 18.1046 14.999 17 14.999ZM15.852 7.999H15V11C15 12.6569 13.6569 14 12 14H10C8.69412 14 7.58312 13.1656 7.17102 12.0009L1.99994 12V14.3542C2.73289 13.5238 3.80528 13 5 13C6.86393 13 8.43009 14.2749 8.87405 16.0003H13.1257C13.5693 14.2744 15.1357 12.999 17 12.999C17.2373 12.999 17.4697 13.0197 17.6957 13.0593L15.852 7.999ZM7 7H2V10H7V7ZM18 4H15V6H18V4ZM7 4H2V5H7V4Z"
+                                            fill="white" fill-opacity="0.6"></path>
+                                    </svg>
+                                    <span>Đặt giao tận nơi</span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-detail">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="product-detail-title">
+                            <h4>Mô tả sản phẩm</h4>
+                            <p class="product-detail-description"></p>
+                        </div>
+                        <div id="related">
+                            <h4 class="related-product-title">Sản phẩm liên quan</h4>
+                            <div id="related-product" class="row">
+                                <div id="related-all">
+                                    <div id="related-caphe" class="menu-side">
+                                        <!-- danh mục cà phê Highlight -->
+                                        <div id="related-caphehighlight" class="category row" parent-id="caphe">
+                                            <a href="./Collection.html?category=caphehighlight"
+                                                class="category-info product-page">Cà Phê Highlight</a>
+                                        </div>
+                                        <!-- danh mục cà phê việt nam -->
+                                        <div id="related-caphevn" class="category row" parent-id="caphe">
+                                            <a href="./Collection.html?category=caphevn"
+                                                class="category-info product-page">Cà Phê Việt Nam</a>
+                                        </div>
+                                        <!-- danh mục cà phê máy -->
+                                        <div id="related-caphemay" class="category row" parent-id="caphe">
+                                            <a href="./Collection.html?category=caphemay"
+                                                class="category-info product-page">Cà Phê Máy</a>
+                                        </div>
+                                        <!-- danh mục Cold Brew -->
+                                        <div id="related-coldbrew" class="category row" parent-id="caphe">
+                                            <a href="./Collection.html?category=coldbrew"
+                                                class="category-info product-page">Cold Brew</a>
+                                        </div>
+                                    </div>
+                                    <!-- Trà -->
+                                    <div id="related-tra" class="menu-side">
+                                        <!-- danh mục Trà Trái Cây -->
+                                        <div id="related-tratraicay" class="category row" parent-id="tra">
+                                            <a href="./Collection.html?category=tratraicay"
+                                                class="category-info product-page">Trà
+                                                Trái Cây</a>
+                                        </div>
+                                        <!-- danh mục Trà Sữa Macchiato -->
+                                        <div id="related-macchiato" class="category row" parent-id="tra">
+                                            <a href="./Collection.html?category=macchiato"
+                                                class="category-info product-page">Trà sữa
+                                                Macchiato</a>
+                                        </div>
+                                    </div>
+                                    <div id="related-cloud" class="menu-side">
+                                        <!-- danh mục CloudFee -->
+                                        <div id="related-cloudfee" class="category row" parent-id="cloud">
+                                            <a href="./Collection.html?category=cloudfee"
+                                                class="category-info product-page">CloudFee</a>
+                                        </div>
+                                        <!-- danh mục CloudTea Mochi -->
+                                        <div id="related-cloudteamochi" class="category row" parent-id="cloud">
+                                            <a href="./Collection.html?category=cloudteamochi"
+                                                class="category-info product-page">CloudTea Mochi</a>
+                                        </div>
+                                    </div>
+                                    <!-- Hi-Tea -->
+                                    <div id="related-hitea" class="menu-side">
+                                        <!-- danh mục CloudFee -->
+                                        <div id="related-hiteatra" class="category row" parent-id="hitea">
+                                            <a href="./Collection.html?category=cloudfee"
+                                                class="category-info product-page">Hi-Tea Trà</a>
+                                        </div>
+                                        <!-- danh mục Hitea đá tuyết -->
+                                        <div id="related-hiteadatuyet" class="category row" parent-id="hitea">
+                                            <a href="./Collection.html?category=cloudteamochi"
+                                                class="category-info product-page">Hi-Tea Đá Tuyết</a>
+                                        </div>
+                                    </div>
+                                    <!-- Trà xanh - Chocolate -->
+                                    <div id="related-traxanh-choco" class="menu-side">
+                                        <!-- danh mục Trà xanh Tây Bắc -->
+                                        <div id="related-traxanh" class="category row" parent-id="traxanh-choco">
+                                            <a href="./Collection.html?category=cloudfee"
+                                                class="category-info product-page">Trà Xanh Tây Bắc</a>
+                                        </div>
+                                        <!-- danh mục Chocolate -->
+                                        <div id="related-chocolate" class="category row" parent-id="traxanh-choco">
+                                            <a href="./Collection.html?category=cloudteamochi"
+                                                class="category-info product-page">Chocolate</a>
+                                        </div>
+                                    </div>
+                                    <!-- Thức uống đá xay -->
+                                    <div id="related-daxay" class="menu-side">
+                                        <!-- danh mục Bánh mặn -->
+                                        <div id="related-daxayfrosty" class="category row" parent-id="daxay">
+                                            <a href="./Collection.html?category=daxay"
+                                                class="category-info product-page">Đá xay Frosty</a>
+                                        </div>
+                                    </div>
+                                    <!-- Bánh - Snack -->
+                                    <div id="related-banh-snack" class="menu-side">
+                                        <!-- danh mục Bánh mặn -->
+                                        <div id="related-banhman" class="category row" parent-id="banh-snack">
+                                            <a href="./Collection.html?category=banhman"
+                                                class="category-info product-page">Bánh mặn</a>
+                                        </div>
+                                        <!-- danh mục Bánh Ngọt -->
+                                        <div id="related-banhngot" class="category row" parent-id="banh-snack">
+                                            <a href="./Collection.html?category=banhngot"
+                                                class="category-info product-page">Bánh ngọt</a>
+                                        </div>
+                                        <!-- danh mục Bánh Pastry -->
+                                        <div id="related-banhpastry" class="category row" parent-id="banh-snack">
+                                            <a href="./Collection.html?category=banhpastry"
+                                                class="category-info product-page">Bánh Pastry</a>
+                                        </div>
+                                    </div>
+                                    <!-- Thưởng thức tại nhà -->
+                                    <div id="related-tainha" class="menu-side">
+                                        <!-- danh mục cà phê tại nhà -->
+                                        <div id="related-caphetainha" class="category row" parent-id="tainha">
+                                            <a href="./Collection.html?category=caphetainha"
+                                                class="category-info product-page">Cà phê tại nhà</a>
+                                        </div>
+                                        <!-- danh mục chai fresh không đá -->
+                                        <div id="related-chaifresh0da" class="category row" parent-id="tainha">
+                                            <a href="./Collection.html?category=chaifresh0da"
+                                                class="category-info product-page">Chai Fresh Không Đá</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <div id="zalo-vr" class="button-contact">
+                <div class="phone-vr">
+                    <div class="phone-vr-circle-fill"></div>
+                    <div class="phone-vr-img-circle">
+                        <a target="_blank" href="https://zalo.me/0937027877">
+                            <img alt="Zalo" src="https://m10store.vn/wp-content/plugins/button-contact-vr/img/zalo.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="phone-vr" class="button-contact">
+                <div class="phone-vr">
+                    <div class="phone-vr-circle-fill"></div>
+                    <div class="phone-vr-img-circle">
+                        <a href="tel:0936252525">
+                            <img alt="Phone"
+                                src="https://m10store.vn/wp-content/plugins/button-contact-vr/img/phone.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="scrollTopButton">
+            <i class="fa-solid fa-angles-up"></i>  
+        </button>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 footer-col">
+                    <p class="footer-title">Giới thiệu</p>
+                    <ul class="footer-list">
+                        <li><a href="">Về Chúng Tôi</a></li>
+                        <li><a href="">Sản phẩm</a></li>
+                        <li><a href="">Khuyển mãi</a></li>
+                        <li><a href="">Chuyện cà phê</a></li>
+                        <li><a href="">Cửa Hàng</a></li>
+                        <li><a href="">Tuyển dụng</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <p class="footer-title">Điều khoản</p>
+                    <ul class="footer-list">
+                        <li><a href="">Điều khoản sử dụng</a></li>
+                        <li><a href="">Chính sách bảo mật thông tin</a></li>
+                        <li><a href="">Hướng dẫn xuất hóa đơn GTGT</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-hotline">
+                        <p>
+                            <img src="../img/phone_0a42df1c753c4fa0910108daa73fe2ef.png" alt="">
+                            Đặt hàng: 1800 6936
+                        </p>
+                        <p>
+                            <img src="../img/map-pin-2-line_575ccb91b6f94a308d1bd507d4ae72a7.png" alt="">
+                            Liên hệ
+                        </p>
+                    </div>
+                    <div class="footer-address">
+                        <p>Tầng 3-4 Hub Building <br>
+                            195/10E Điện Biên Phủ, P.15,<br>
+                            Q.Bình Thạnh, TP.Hồ Chí Minh
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="fanpage">
+                        <div class="fb-page fb_iframe_widget"
+                            data-href="https://www.facebook.com/The.Coffee.House.2014/" data-small-header="false"
+                            data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"
+                            fb-xfbml-state="rendered"
+                            fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=363772567412181&amp;container_width=270&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FThe.Coffee.House.2014%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false">
+                            <span style="vertical-align: bottom; width: 270px; height: 130px;"><iframe
+                                    name="fbef19086b7a03bd3" width="1000px" height="1000px"
+                                    data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin"
+                                    frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no"
+                                    allow="encrypted-media"
+                                    src="https://www.facebook.com/v2.0/plugins/page.php?adapt_container_width=true&amp;app_id=363772567412181&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df6b9c3e540367cf10%26domain%3Dthecoffeehouse.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fthecoffeehouse.com%252Ffbc6f7ad315f047a5%26relation%3Dparent.parent&amp;container_width=270&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FThe.Coffee.House.2014%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false"
+                                    style="border: none; visibility: visible; width: 270px; height: 130px;"
+                                    class=""></iframe></span>
+                        </div>
+                    </div>
+                    <ul class="social">
+                        <li>
+                            <a href="https://www.facebook.com/The.Coffee.House.2014/">
+                                <i class="fa-brands fa-square-facebook" style="color: #1d90e7;"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/thecoffeehousevn/">
+                                <img src="../img/instagram.png">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="../script/data_source.js"></script>
+    <script src="../script/main.js"></script>
+    <script src="../script/product-detail.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $('#carouselExampleIndicators').on('slid.bs.carousel', function (e) {
+            var index = $(e.relatedTarget).index();
+            $('#thumb-carousel .thumb').removeClass('active');
+            $('#thumb-carousel .thumb').eq(index).addClass('active');
+        });
+    </script>
+</body>
+
+</html>

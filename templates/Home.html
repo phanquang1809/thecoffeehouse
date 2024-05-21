@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+
+    <link rel="short icon" type="image" href="../img/thecoffeehouse_logo.png">
+    <title>The Coffee House</title>
+</head>
+
+<body>
+    <div class="spinner-overlay">
+        <div class="spinner-container">
+            <img src="../img/logo_load.jpg" alt="Logo" class="custom-logo">
+        </div>
+    </div>
+    <script src="../script/load.js"></script>
+    <div class="top-bar">
+        <div class="top-bar-info">
+            <div>
+                <a href="#">
+                    <img src="../img/vector_706a88566eab4f009bed6eea93cd890b.png" alt="">
+                    <span>133 Cửa hàng khắp cả nước</span>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="../img/group_8de276faa50c486b9d485826c506803b.png" alt="">
+                    <span>Đặt hàng: 1800.6936</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../img/The-Coffee-House-Logo-PNG-2.png" width="200px"
+                        height="35px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <div class="underline-container">
+                                <a class="nav-link fw-bold underline-hover" aria-current="page" href="#">Cà
+                                    phê</a>
+                                <div class="underline"></div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="underline-container">
+                                <a class="nav-link fw-bold underline-hover" href="#">Trà</a>
+                                <div class="underline"></div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="menu">
+                                <div class="underline-container">
+                                    <a class="nav-link dropdown-toggle fw-bold underline-hover"
+                                        href="./collection.html?category=all" id="navbarDropdown" role="button"
+                                        aria-expanded="false">
+                                        Menu
+                                    </a>
+                                    <div class="underline"></div>
+                                </div>
+                                <div class="custom-dropdown">
+                                    <div class="custom-dropdown-item"><a href="./collection.html?category=all">Tất
+                                            Cả</a></div>
+                                    <div class="custom-dropdown-item"><a href="./collection.html?category=caphe">Cà
+                                            Phê</a>
+                                        <ul>
+                                            <li><a href="./collection.html?category=caphehighlight">Cà Phê
+                                                    Highlight</a></li>
+                                            <li><a href="./collection.html?category=caphevn">Cà Phê Việt Nam</a>
+                                            </li>
+                                            <li><a href="./collection.html?category=caphemay">Cà Phê Máy</a></li>
+                                            <li><a href="./collection.html?category=coldbrew">Cold Brew</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-dropdown-item"><a href="./collection.html?category=tra">Trà</a>
+                                        <ul>
+                                            <li><a href="./collection.html?category=tratraicay">Trà trái cây</a></li>
+                                            <li><a href="./collection.html?category=macchiato">Trà sữa Macchiato</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-dropdown-item"><a
+                                            href="./collection.html?category=cloud">Cloud</a>
+                                        <ul>
+                                            <li><a href="./collection.html?category=cloudfee">CloudFee</a></li>
+                                            <li><a href="./collection.html?category=cloudteamochi">CloudTea Mochi</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-dropdown-item"><a href="./collection.html?category=hitea">Hi-Tea
+                                            Healthy</a>
+                                        <ul>
+                                            <li><a href="./collection.html?category=hiteatra">Hi-Tea Trà</a></li>
+                                            <li><a href="./collection.html?category=hiteadatuyet">Hi-Tea Đá Tuyết</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-dropdown-item"><a
+                                            href="./collection.html?category=traxanh-choco">Trà Xanh - Chocolate</a>
+                                        <ul>
+                                            <li><a href="./collection.html?category=traxanh">Trà Xanh Tây Bắc</a></li>
+                                            <li><a href="./collection.html?category=chocolate">Chocolate</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-dropdown-item"><a href="./collection.html?category=daxay">Thức
+                                            uống đá xay</a>
+                                        <ul>
+                                            <li><a href="./collection.html?category=daxayfrosty">Đá xay Frosty</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-dropdown-item"><a
+                                            href="./collection.html?category=banh-snack">Bánh & Snack</a>
+                                        <ul>
+                                            <li><a href="./collection.html?category=banhman">Bánh mặn</a></li>
+                                            <li><a href="./collection.html?category=banhngot">Bánh ngọt</a></li>
+                                            <li><a href="">Snack</a></li>
+                                            <li><a href="./collection.html?category=banhpastry">Bánh Pastry</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-dropdown-item"><a href="./collection.html?category=tainha">Thưởng
+                                            Thức Tại Nhà</a>
+                                        <ul>
+                                            <li><a href="./collection.html?category=caphetainha">Cà phê tại nhà</a></li>
+                                            <li><a href="./collection.html?category=chaifresh0da">Chai Fresh Không
+                                                    Đá</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="nav-item">
+                            <div class="menu">
+                                <div class="underline-container">
+                                    <a class="nav-link dropdown-toggle fw-bold underline-hover" href="#"
+                                        id="navbarDropdown" role="button" aria-expanded="false">
+                                        Chuyện Nhà
+                                    </a>
+                                    <div class="underline"></div>
+                                </div>
+                                <div class="custom-dropdown menu-blog">
+                                    <div class="custom-dropdown-item"><a href="">Coffeeholic</a>
+                                        <ul>
+                                            <li><a href="">#chuyencaphe</a></li>
+                                            <li><a href="">#phacaphe</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="custom-dropdown-item"><a href="">Teaholic</a>
+                                        <ul>
+                                            <li><a href="">#phatra</a></li>
+                                            <li><a href="">#cauchuyenvetra</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-dropdown-item"><a href="">Blog</a>
+                                        <ul>
+                                            <li><a href="">#inthemood</a></li>
+                                            <li><a href="">#Review</a></li>
+                                            <li><a href="">#HumanofTCH</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Tất Cả</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Cà Phê</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">Cà Phê Highlight</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">Cà Phê Việt Nam</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">Cà Phê Máy</a></li>
+                                        <li><a class="dropdown-subitem" href="#">Cold Brew</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Trà</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">Trà trái cây</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">Macchiato</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Cloud</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">CloudFee</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">CloudTea Mochi</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Hi-Tea Healthy</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">Hi-Tea Trà</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">Hi-Tea Đá Tuyết</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Trà Xanh - Chocolate</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">Trà Xanh Tây Bắc</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">Chocolate</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Thức uống đá xay</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">Đá xay Frosty</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Bánh - Snack</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">Bánh mặn</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">Bánh ngọt</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">Bánh Pastry</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Thưởng thức tại nhà</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">Cà Phê Tại Nhà</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">Chai Fresh Không Đá</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Chuyện nhà
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#">Coffeeholic</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">#chuyencaphe</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">#phacaphe</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Teaholic</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">#phatra</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">#cauchuyenvetra</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Blog</a>
+                                    <ul class="dropdown-submenu">
+                                        <li><a class="dropdown-subitem" href="#">#inthemood</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">#Review</a></li>
+                                        <li> <a class="dropdown-subitem" href="#">#HumanofTCH</a></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <div class="underline-container">
+                                <a class="nav-link fw-bold underline-hover" href="#">Cảm hứng CloudFee</a>
+                                <div class="underline"></div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="underline-container">
+                                <a class="nav-link fw-bold underline-hover" href="#">Cửa hàng</a>
+                                <div class="underline"></div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="underline-container">
+                                <a class="nav-link fw-bold underline-hover" href="./register.html">Tuyển dụng</a>
+                                <div class="underline"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <div class="header-carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/web_desktop_c3edc77aab2547a8ad08cfd8ef420008.jpg" class="d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/web_moi_-_desktop_9a8f4920633247219fc7737822a58877.jpg" class="d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/web_moi_-_desktop_8f36640743d74ae0b620c5e742d4c2c0.jpg" class="d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/web_desktop_ebbe407c376942e59d72cf1804d16f64.jpg" class="d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/desktop_70dfa43149ee4b4e8dd47f448103adaf.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="menu-home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 menu-home-banner"><img
+                            src="../img/banner_app_f2a5895397a14c4f9d2eb65f7d998990.jpg" alt=""></div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                        <div id="cloudfee" class="category">
+                            <div>
+                                <a style="display: none;" href="./collection.html?category=cloudfee"
+                                    class="category-info">CloudFee</a>
+                                <div id="proc40" class="item">
+                                    <div class="item-img"><a href="./product.html"><img class="img-src"
+                                                src="../img/menu/cloud/1697442235_cloudfee-hanh-nhan-nuong_ba2462626af44d86acc19997e654a0c3.jpg"></a>
+                                    </div>
+                                    <div class="item-info">
+                                        <a href="./product.html">CloudFee Hạnh Nhân Nướng</a>
+                                        <div class="item-price">49.000 đ</div>
+                                        <div class="description"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                        <div id="caphevn" class="category">
+                            <div>
+                                <a style="display: none;" href="./collection.html?category=caphevn"
+                                    class="category-info">Cà
+                                    Phê Việt Nam</a>
+                                <div id="proc4" class="item">
+                                    <div class="item-img"><a href="./product.html"><img class="img-src"
+                                                src="../img/menu/caphe/1675355354_bg-tch-sua-da-no_4fbf208885ed464ab4b5e145336d42a2.jpg"></a>
+                                    </div>
+                                    <div class="item-info">
+                                        <a href="./product.html">The Coffee House Sữa Đá</a>
+                                        <div class="item-price">39.000 đ</div>
+                                        <div class="description">Thức uống giúp tỉnh táo tức thì để bắt đầu ngày mới
+                                            thật hứng khởi. Không đắng khét như cà phê truyền thống, The Coffee
+                                            House Sữa Đá mang hương vị hài hoà đầy lôi cuốn. Là sự đậm đà của 100%
+                                            cà phê Arabica Cầu Đất rang vừa tới, biến tấu tinh tế với sữa đặc và kem
+                                            sữa ngọt ngào cực quyến rũ. Càng hấp dẫn hơn với topping thạch 100% cà
+                                            phê nguyên chất giúp giữ trọn vị ngon đến ngụm cuối cùng.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                        <div id="hiteatra" class="category">
+                            <div>
+                                <a style="display: none;" href="./collection.html?category=cloudfee"
+                                    class="category-info">Hi-Tea Trà</a>
+                                <div id="proc48" class="item">
+                                    <div class="item-img"><a href="./product.html"><img class="img-src"
+                                                src="../img/menu/hitea/1669736893_hi-tea-vai_5b6d0f757f2c44328f84fcb5fb972256.png"></a>
+                                    </div>
+                                    <div class="item-info">
+                                        <a href="./product.html">Hi-Tea Vải</a>
+                                        <div class="item-price">49.000 đ</div>
+                                        <div class="description">Thức uống giúp tỉnh táo tức thì để bắt đầu ngày mới
+                                            thật hứng khởi. Không đắng khét như cà phê truyền thống, The Coffee
+                                            House Sữa Đá mang hương vị hài hoà đầy lôi cuốn. Là sự đậm đà của 100%
+                                            cà phê Arabica Cầu Đất rang vừa tới, biến tấu tinh tế với sữa đặc và kem
+                                            sữa ngọt ngào cực quyến rũ. Càng hấp dẫn hơn với topping thạch 100% cà
+                                            phê nguyên chất giúp giữ trọn vị ngon đến ngụm cuối cùng.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                        <div id="caphevn" class="category">
+                            <div>
+                                <a style="display: none;" href="./collection.html?category=caphevn"
+                                    class="category-info">Cà Phê Việt Nam</a>
+                                <div id="proc5" class="item">
+                                    <div class="item-img"><a href="./product.html"><img class="img-src"
+                                                src="../img/menu/caphe/1669736835_ca-phe-sua-da_e6168b6a38ec45d2b4854d2708b5d542.png"></a>
+                                    </div>
+                                    <div class="item-info">
+                                        <a href="./product.html">Cà Phê Sữa Đá</a>
+                                        <div class="item-price">29.000 đ</div>
+                                        <div class="description">Cà phê Đắk Lắk nguyên chất được pha phin truyền
+                                            thống kết hợp với sữa đặc tạo nên hương vị đậm đà, hài hòa giữa vị ngọt
+                                            đầu lưỡi và vị đắng thanh thoát nơi hậu vị.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                        <div id="banhman" class="category">
+                            <div>
+                                <a style="display: none;" href="./collection.html?category=banhman"
+                                    class="category-info">Bánh mặn</a>
+                                <div id="proc60" class="item">
+                                    <div class="item-img"><a href="./product.html"><img class="img-src"
+                                                src="../img/menu/banhsnack/1638440015_banh-mi-vietnam_6dee0f61fe3640b5bba43089c5665a60.jpg"></a>
+                                    </div>
+                                    <div class="item-info">
+                                        <a href="./product.html">Bánh Mì VN Thịt Nguội</a>
+                                        <div class="item-price">39.000 đ</div>
+                                        <div class="description"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                        <div id="banhngot" class="category">
+                            <div>
+                                <a style="display: none;" href="./collection.html?category=banhngot"
+                                    class="category-info">Bánh ngọt</a>
+                                <div id="proc67" class="item">
+                                    <div class="item-img"><a href="./product.html"><img class="img-src"
+                                                src="../img/menu/banhsnack/1655348107_mochi-choco_7a9b9ed63bd44ffd93932b2b29bfc5b8.jpg"></a>
+                                    </div>
+                                    <div class="item-info">
+                                        <a href="./product.html">Mochi Kem Chocolate</a>
+                                        <div class="item-price">19.000 đ</div>
+                                        <div class="description"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <div id="zalo-vr" class="button-contact">
+                <div class="phone-vr">
+                    <div class="phone-vr-circle-fill"></div>
+                    <div class="phone-vr-img-circle">
+                        <a target="_blank" href="https://zalo.me/0937027877">
+                            <img alt="Zalo" src="https://m10store.vn/wp-content/plugins/button-contact-vr/img/zalo.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="phone-vr" class="button-contact">
+                <div class="phone-vr">
+                    <div class="phone-vr-circle-fill"></div>
+                    <div class="phone-vr-img-circle">
+                        <a href="tel:0937027877">
+                            <img alt="Phone"
+                                src="https://m10store.vn/wp-content/plugins/button-contact-vr/img/phone.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="scrollTopButton">
+            <i class="fa-solid fa-angles-up"></i>  
+        </button>
+        <div class="blog-home">
+            <div class="container">
+                <div class="blog-home-title"><img src="../img/coffee-2_2_92db24958ff14ac4b4249b3256f7a415.png"
+                        alt="">Chuyện Nhà</div>
+                <div class="row">
+                    <!-- Blog Coffeeholic -->
+                    <div class="blog-home-blogtitle"><a href="">Coffeeholic</a></div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <a href=""><img
+                                    src="../img/blog/thecoffeehouse_caphehighlight01_de40c0102a954c50a328f7befcdd82bd_grande.jpg"
+                                    alt="" class="blog-img"></a>
+                            <div class="blog-info">
+                                <span>01/11/2023</span>
+                                <h3><a href="">BẮT GẶP SÀI GÒN XƯA TRONG MÓN UỐNG HIỆN ĐẠI CỦA GIỚI TRẺ</a></h3>
+                                <p>Dẫu qua bao nhiêu lớp sóng thời gian, người ta vẫn có thể tìm lại những dấu ấn thăng
+                                    trầm của một Sài Gòn xưa cũ. Trên những góc phố,...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <a href=""><img src="../img/blog/1200x630_0b0081d93ba6479b934e04e71cbfd102_grande.jpg"
+                                    alt="" class="blog-img"></a>
+                            <div class="blog-info">
+                                <span>30/10/2023</span>
+                                <h3><a href="">CHỈ CHỌN CÀ PHÊ MỖI SÁNG NHƯNG CŨNG KHIẾN CUỘC SỐNG CỦA BẠN THÊM THÚ VỊ,
+                                        TẠI SAO KHÔNG?</a></h3>
+                                <p>Thực chất, bạn không nhất thiết phải làm gì to tát để tạo nên một ngày rực rỡ. Chỉ
+                                    cần bắt đầu từ những việc nhỏ nhặt nhất, khi bạn...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <a href=""><img src="../img/blog/3__1__2b67342f4db64bb082944cf078afd910_grande (1).jpg"
+                                    alt="" class="blog-img"></a>
+                            <div class="blog-info">
+                                <span>12/02/2023</span>
+                                <h3><a href="">SIGNATURE - BIỂU TƯỢNG VĂN HOÁ CÀ PHÊ CỦA THE COFFEE HOUSE ĐÃ QUAY TRỞ
+                                        LẠI</a></h3>
+                                <p>Mới đây, các "tín đồ" cà phê đang bàn tán xôn xao về SIGNATURE - Biểu tượng văn hóa
+                                    cà phê của The Coffee House đã quay trở lại.Một lời...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Blog Teaholic -->
+                    <div class="blog-home-blogtitle"><a href="">Teaholic</a></div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <a href=""><img
+                                    src="../img/blog/an_banh_uong_nuoc_nhom_03_d499c0cab14746588fff6fe0dee678ad_grande.jpg"
+                                    alt="" class="blog-img"></a>
+                            <div class="blog-info">
+                                <span>19/09/2023</span>
+                                <h3><a href="">TRUNG THU NÀY, SAO BẠN KHÔNG TỰ CHO MÌNH "DỪNG MỘT CHÚT THÔI, THƯỞNG MỘT
+                                        CHÚT TRÔI"?</a></h3>
+                                <p>Bạn có từng nghe: “Trung thu thôi mà, có gì đâu mà chơi”, hay “Trung thu càng ngày
+                                    càng chán”...? Sự bận rộn đến mức “điên rồ” đã khiến chúng...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <a href=""><img
+                                    src="../img/blog/cautoankeothom_thecoffeehouse_03_29cd435c9a574e1a867ac36f2c863bb6_grande.jpg"
+                                    alt="" class="blog-img"></a>
+                            <div class="blog-info">
+                                <span>16/01/2023</span>
+                                <h3><a href="">BỘ SƯU TẬP CẦU TOÀN KÈO THƠM: "VÍA" MAY MẮN KHÔNG THỂ BỎ LỠ TẾT NÀY</a>
+                                </h3>
+                                <p>Tết nay vẫn giống Tết xưa, không hề mai một nét văn hoá truyền thống mà còn thêm vào
+                                    những hoạt động “xin vía” hiện đại, trẻ trung. Ví như...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <a href=""><img src="../img/blog/dscf0216_2890bcca44ae49aaaf843d5fa3db2fc6_grande.jpg"
+                                    alt="" class="blog-img"></a>
+                            <div class="blog-info">
+                                <span>16/08/2022</span>
+                                <h3><a href="">“KHUẤY ĐỂ THẤY TRĂNG" - KHUẤY LÊN NIỀM HẠNH PHÚC: TRẢI NGHIỆM KHÔNG THỂ
+                                        BỎ LỠ MÙA TRUNG THU NÀY</a></h3>
+                                <p>Năm 2022 là năm đề cao sức khỏe tinh thần nên giới trẻ muốn tận hưởng một Trung thu
+                                    với nhiều trải nghiệm mới mẻ, rôm rả cùng bạn bè...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Blog -->
+                    <div class="blog-home-blogtitle"><a href="">Blog</a></div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <a href=""><img src="../img/blog/post-tcbc_f_2e456821ebac42398b294f9356fe30a0_grande.jpg"
+                                    alt="" class="blog-img"></a>
+                            <div class="blog-info">
+                                <span>09/05/2024</span>
+                                <h3><a href="">THE COFFEE HOUSE PHẢN HỒI VỀ SỰ CỐ VỠ KÍNH DO GIÔNG LỐC TẠI CỬA HÀNG THE
+                                        COFFEE HOUSE THÁI HÀ, HÀ NỘI</a></h3>
+                                <p>Vào tối ngày 20 tháng 04 năm 2024, Hà Nội có xuất hiện giông lốc kèm mưa đá, gây vỡ
+                                    kính tại toà nhà Việt Tower - 01 Thái Hà,...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <a href=""><img src="../img/blog/zalo_01c6f0bfb0854951a16a92b52457ca56_grande.jpg" alt=""
+                                    class="blog-img"></a>
+                            <div class="blog-info">
+                                <span>23/02/2024</span>
+                                <h3><a href="">“XUÂN LÊN ĐI!”: LỜI CHÚC Ý NGHĨA CHO NĂM THÌN ĐIỀU CHI CŨNG NHƯ Ý</a>
+                                </h3>
+                                <p>Mùa xuân đã rộn ràng khắp nơi, mang theo nguồn sống dào dạt cùng mọi ước nguyện may
+                                    mắn. Bạn cầu mong gì cho mình và người thân trong những...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <a href=""><img
+                                    src="../img/blog/thecoffeehouse_timesquare_02_b87f7576b02d4d82ba5b7ed4e40b6b00_grande.png"
+                                    alt="" class="blog-img"></a>
+                            <div class="blog-info">
+                                <span>21/11/2023</span>
+                                <h3><a href="">LY CÀ PHÊ SỮA ĐÁ VIỆT NAM XUẤT HIỆN Ở QUẢNG TRƯỜNG THỜI ĐẠI NEW YORK</a>
+                                </h3>
+                                <p>Ấn tượng và tự hào, hình ảnh Việt Nam tiếp tục được lên sóng tại Quảng trường Thời
+                                    Đại (New York) với ly cà phê sữa đá quen thuộc, đi...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="custom-container">
+            <div class="row">
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 footer-col">
+                    <p class="footer-title">Giới thiệu</p>
+                    <ul class="footer-list">
+                        <li><a href="">Về Chúng Tôi</a></li>
+                        <li><a href="">Sản phẩm</a></li>
+                        <li><a href="">Khuyển mãi</a></li>
+                        <li><a href="">Chuyện cà phê</a></li>
+                        <li><a href="">Cửa Hàng</a></li>
+                        <li><a href="">Tuyển dụng</a></li>
+                    </ul>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                    <p class="footer-title">Điều khoản</p>
+                    <ul class="footer-list">
+                        <li><a href="">Điều khoản sử dụng</a></li>
+                        <li><a href="">Chính sách bảo mật thông tin</a></li>
+                        <li><a href="">Hướng dẫn xuất hóa đơn GTGT</a></li>
+                    </ul>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                    <div class="footer-hotline">
+                        <p>
+                            <img src="../img/phone_0a42df1c753c4fa0910108daa73fe2ef.png" alt="">
+                            Đặt hàng: 1800 6936
+                        </p>
+                        <p>
+                            <img src="../img/map-pin-2-line_575ccb91b6f94a308d1bd507d4ae72a7.png" alt="">
+                            Liên hệ
+                        </p>
+                    </div>
+                    <div class="footer-address">
+                        <p>Tầng 3-4 Hub Building <br>
+                            195/10E Điện Biên Phủ, P.15,<br>
+                            Q.Bình Thạnh, TP.Hồ Chí Minh
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                    <div class="fanpage">
+                        <div class="fb-page fb_iframe_widget"
+                            data-href="https://www.facebook.com/The.Coffee.House.2014/" data-small-header="false"
+                            data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"
+                            fb-xfbml-state="rendered"
+                            fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=363772567412181&amp;container_width=270&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FThe.Coffee.House.2014%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false">
+                            <span style="vertical-align: bottom; width: 270px; height: 130px;"><iframe
+                                    name="fbef19086b7a03bd3" width="1000px" height="1000px"
+                                    data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin"
+                                    frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no"
+                                    allow="encrypted-media"
+                                    src="https://www.facebook.com/v2.0/plugins/page.php?adapt_container_width=true&amp;app_id=363772567412181&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df6b9c3e540367cf10%26domain%3Dthecoffeehouse.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fthecoffeehouse.com%252Ffbc6f7ad315f047a5%26relation%3Dparent.parent&amp;container_width=270&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FThe.Coffee.House.2014%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false"
+                                    style="border: none; visibility: visible; width: 270px; height: 130px;"
+                                    class=""></iframe></span>
+                        </div>
+                    </div>
+                    <ul class="social">
+                        <li>
+                            <a href="https://www.facebook.com/The.Coffee.House.2014/">
+                                <i class="fa-brands fa-square-facebook" style="color: #1d90e7;"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/thecoffeehousevn/">
+                                <img src="../img/instagram.png">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script src="../script/data_source.js"></script>
+    <script src="../script/main.js"></script>
+</body>
+
+</html>
