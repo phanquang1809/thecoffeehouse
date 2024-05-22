@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/"
+  to = "/templates/Home.html"
+  status = 200
