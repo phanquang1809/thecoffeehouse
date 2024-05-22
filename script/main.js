@@ -1,4 +1,4 @@
- // Lấy tham chiếu đến nút
+// Lấy tham chiếu đến nút
  const scrollTopButton = document.getElementById('scrollTopButton');
  // Cuộn lên đầu trang khi nhấp vào nút
  scrollTopButton.addEventListener('click', function() {
