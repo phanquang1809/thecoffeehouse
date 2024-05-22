@@ -95,7 +95,7 @@ function hienthi() {
 function relatedProduct(imgSrc, name, price, description) {
   var itemId = 'proc' + itemIdCounter++;
   var item = document.createElement('div');
-  item.classList.add('col-xxl-2', 'col-xl-2', 'col-lg-2', 'col-md-3');
+  item.classList.add('col-xxl-2', 'col-xl-2', 'col-lg-2', 'col-md-3','col-sm-3','col-3');
   item.innerHTML = `
         <div id="${itemId}" class="item">
             <div class="item-img"><a href="./product.html"><img loading="lazy" class="img-src" src="${imgSrc}"></a></div>
