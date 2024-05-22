@@ -4,7 +4,7 @@ var itemIdCounter = 1;
 function createProductItem(imgSrc, name, price, description) {
     var itemId = 'proc' + itemIdCounter++;
     var item = document.createElement('div');
-    item.classList.add('col-xxl-4', 'col-xl-4', 'col-lg-4', 'col-md-6');
+    item.classList.add('col-xxl-4', 'col-xl-4', 'col-lg-4', 'col-md-6', 'col-sm-6','col-6');
     item.innerHTML = `
         <div id="${itemId}" class="item">
             <div class="item-img"><a href="./product.html"><img loading="lazy" class="img-src" src="${imgSrc}"></a></div>
