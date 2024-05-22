@@ -584,6 +584,33 @@ header {
     color: #00000099;
 }
 
+.rating {
+    display: flex;
+    user-select: none;
+    margin-bottom: 8px;
+}
+
+.fa-star {
+    font-size: 2em;
+    color: #ccc; /* Màu xám nhạt cho ngôi sao chưa chọn */
+    cursor: pointer;
+    transition: color 0.2s, transform 0.2s;
+}
+
+.fa-star:hover {
+    color: #FFD43B; /* Màu vàng khi hover */
+    transform: rotate(10deg); /* Hiệu ứng nghiêng ngôi sao */
+}
+.star-rating
+{
+    user-select: none;
+
+}
+.star-rating.active
+{
+    user-select: none;
+    color: #FFD43B; /* Màu vàng khi hover */
+}
 /* sidebar menu */
 .sidebar {
     position: sticky;
