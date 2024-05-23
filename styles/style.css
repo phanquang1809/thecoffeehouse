@@ -3,14 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Roboto Mono', monospace;
 }
-
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    font-family: 'SF Pro Display', sans-serif;
 }
 
 .carousel-indicators {
@@ -215,95 +214,7 @@ header {
     width: 100%;
     height: auto;
 }
-@media screen and (max-width:1280px) {
-    .home-carousel {
-    
-    }
 
-    .custom-dropdown {
-        padding: 30px 10px;
-    }
-
-    .menu-blog {
-        padding: 30px 200px !important;
-    }
-}
-
-@media screen and (max-width:1200px) {
-
-    .nav-item {
-        padding: 0 10px !important;
-    }
-}
-
-@media screen and (max-width:992px) {
-    .menu {
-        display: none !important;
-    }
-    .dropdown{
-        display: block !important;
-    }
-    .border-right::before {
-        display: none;
-    }
-
-    .row>.fchild {
-        width: 0% !important;
-    }
-
-    .row>.schild {
-        width: 100% !important;
-        padding-left: 12px !important;
-    }
-    .blog-item-img
-    {
-        height: 200px !important;
-    }
-}
-.desktop
-{
-    display: block;
-}
-.mobile
-{
-    display: none;
-}
-#text-area
-{
-    width: 100%; 
-}
-@media screen and (max-width:768px) {
-
-    .desktop
-    {
-        display: none;
-    }
-    .mobile
-    {
-        display: block;
-    }
-    .header-carousel {
-        transform: translateY(-45px);
-    }
-    .navbar 
-    {
-        padding-bottom: 0 !important;
-    }
-    .blog-item 
-    {
-        flex-direction: column !important;
-        margin-bottom: 40px !important;
-    }
-    .blog-item-img
-    {
-        width: 100% !important;
-        margin-bottom: 10px !important;
-    }
-    .blog-info
-    {
-        width: 100% !important;
-    }
-}
 .carousel-control-prev,
 .carousel-control-next {
     width: fit-content !important;
@@ -452,7 +363,6 @@ header {
 
 .underline-hover:hover+.underline {
     width: 100%;
-    /* Khi hover, độ rộng tăng lên 100% */
 }
 
 .underline-hover {
@@ -490,6 +400,9 @@ header {
 .blog-info
 {
     padding-top: 16px;
+}
+.blog-info >h3 >a{
+    font-weight: bold;
 }
 .blog-home a
 {
@@ -703,7 +616,7 @@ header {
     position: absolute;
     top: 18%;
     left: 0;
-    background-image: url(./img/bincoffee.png);
+    background-image: url(../img/bincoffee.png);
     background-size: 16px;
     background-repeat: no-repeat;
 }
@@ -715,7 +628,7 @@ header {
     position: absolute;
     top: 18%;
     left: 0;
-    background-image: url(./img/child.png);
+    background-image: url(../img/child.png);
     background-size: 16px;
     background-repeat: no-repeat;
 }

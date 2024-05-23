@@ -192,50 +192,58 @@ var dataStorage =
 
     tratraicayData:
         [
-            { category:"tra",
+            {
+                category: "tra",
                 imgSrc: ["../img/menu/tra/1709005899_kimquat-xuan-1_ab527137277049d28ca7e1d4db0b62cc.jpg"],
                 name: "Oolong Tứ Quý Kim Quất Trân Châu",
                 price: "49.000 đ",
                 description: "Đậm hương trà, sảng khoái du xuân cùng Oolong Tứ Quý Kim Quất Trân Châu. Vị nước cốt kim quất tươi chua ngọt, thêm trân châu giòn dai."
             },
-            { category:"tra",
+            {
+                category: "tra",
                 imgSrc: ["../img/menu/tra/1709004168_vai-xuan-1_743d7966f0d54bccaa588389c17edb6c.jpg"],
                 name: "Oolong Tứ Quý Vải",
                 price: "49.000 đ",
                 description: "Đậm hương trà, thanh mát sắc xuân với Oolong Tứ Quý Vải. Cảm nhận hương hoa đầu mùa, hòa quyện cùng vị vải chín mọng căng tràn sức sống."
             },
-            { category:"tra",
+            {
+                category: "tra",
                 imgSrc: ["../img/menu/tra/1649378747_tra-sen-nhan_441ab034e29e4858813ebff91f85162d.jpg"],
                 name: "Trà Long Nhãn Hạt Sen",
                 price: "49.000 đ",
                 description: "Thức uống mang hương vị của nhãn, của sen, của trà Oolong đầy thanh mát cho tất cả các thành viên trong dịp Tết này. An lành, thư thái và đậm đà chính là những gì The Coffee House mong muốn gửi trao đến bạn và gia đình."
             },
-            { category:"tra",
-                imgSrc: ["../img/menu/tra/1669736819_tra-dao-cam-sa-da_63defc32ce214da487850604a63ff281.png","../img/menu/tra/1645970585_tra-dao-cam-sa-da-lifestyle-1_1d28344d9fc04327a9b8b89244aa0e9f.jpg","../img/menu/tra/1645970584_tra-dao-cam-sa-lifestyle-1_7bbd597762e04804b34d50c746aedd9d.jpg"],
+            {
+                category: "tra",
+                imgSrc: ["../img/menu/tra/1669736819_tra-dao-cam-sa-da_63defc32ce214da487850604a63ff281.png", "../img/menu/tra/1645970585_tra-dao-cam-sa-da-lifestyle-1_1d28344d9fc04327a9b8b89244aa0e9f.jpg", "../img/menu/tra/1645970584_tra-dao-cam-sa-lifestyle-1_7bbd597762e04804b34d50c746aedd9d.jpg"],
                 name: "Trà Đào Cam Sả - Đá",
                 price: "49.000 đ",
                 description: "Vị thanh ngọt của đào, vị chua dịu của Cam Vàng nguyên vỏ, vị chát của trà đen tươi được ủ mới mỗi 4 tiếng, cùng hương thơm nồng đặc trưng của sả chính là điểm sáng làm nên sức hấp dẫn của thức uống này."
             },
-            { category:"tra",
-                imgSrc: ["../img/menu/tra/tdcs-nong_288997_ad3077e0124e47998342b83c479babc4.jpg","../img/menu/tra/1645970868_123135733-2818270501780291-1027626989587865971-n_9ec506c0b8704fcfbe133bd0a8880e8f.jpg","../img/menu/tra/1645970867_75081238-2485567778383900-6688212052168671232-n_1c04bf661d234406a32bedc25a4761ad.jpg"],
+            {
+                category: "tra",
+                imgSrc: ["../img/menu/tra/tdcs-nong_288997_ad3077e0124e47998342b83c479babc4.jpg", "../img/menu/tra/1645970868_123135733-2818270501780291-1027626989587865971-n_9ec506c0b8704fcfbe133bd0a8880e8f.jpg", "../img/menu/tra/1645970867_75081238-2485567778383900-6688212052168671232-n_1c04bf661d234406a32bedc25a4761ad.jpg"],
                 name: "Trà Đào Cam Sả - Nóng",
                 price: "59.000 đ",
                 description: "Vị thanh ngọt của đào, vị chua dịu của Cam Vàng nguyên vỏ, vị chát của trà đen tươi được ủ mới mỗi 4 tiếng, cùng hương thơm nồng đặc trưng của sả chính là điểm sáng làm nên sức hấp dẫn của thức uống này."
             },
-            { category:"tra",
-                imgSrc: ["../img/menu/tra/tra-sen_905594_bc376f8b79d84a1cac8f3b37bd8f6065.jpg","../img/menu/tra/1645970154_75199984-2485566908383987-6794562692322426880-n_bc0fd5c8288642cf8a2b56f332cd377e.jpg","../img/menu/tra/1645970154_img-2964_b4d42368924b46388d3c60c6b863c3f8.jpg","../img/menu/tra/45970154_tra-hat-sen-tra-dao-cam-sa-tra-oolong-nhan-hat-chia-lifestyle_486df40e45eb42d5ac5c4aee0ee3daf6.jpg"],
+            {
+                category: "tra",
+                imgSrc: ["../img/menu/tra/tra-sen_905594_bc376f8b79d84a1cac8f3b37bd8f6065.jpg", "../img/menu/tra/1645970154_75199984-2485566908383987-6794562692322426880-n_bc0fd5c8288642cf8a2b56f332cd377e.jpg", "../img/menu/tra/1645970154_img-2964_b4d42368924b46388d3c60c6b863c3f8.jpg", "../img/menu/tra/45970154_tra-hat-sen-tra-dao-cam-sa-tra-oolong-nhan-hat-chia-lifestyle_486df40e45eb42d5ac5c4aee0ee3daf6.jpg"],
                 name: "Trà Hạt Sen - Đá",
                 price: "49.000 đ",
                 description: "Nền trà oolong hảo hạng kết hợp cùng hạt sen tươi, bùi bùi và lớp foam cheese béo ngậy. Trà hạt sen là thức uống thanh mát, nhẹ nhàng phù hợp cho cả buổi sáng và chiều tối."
             },
-            { category:"tra",
-                imgSrc: ["../img/menu/tra/tra-sen-nong_025153_4da9e9dff9d24feaa719de47a67c5883.jpg","../img/menu/tra/1645970264_75199984-2485566908383987-6794562692322426880-n_13d02342455141388e01985634164c4a.jpg","../img/menu/tra/1645970264_51427912-2275803252693688-2910246299053850624-n_29c21df8f34e41dc985cea20384ac9a3.jpeg"],
+            {
+                category: "tra",
+                imgSrc: ["../img/menu/tra/tra-sen-nong_025153_4da9e9dff9d24feaa719de47a67c5883.jpg", "../img/menu/tra/1645970264_75199984-2485566908383987-6794562692322426880-n_13d02342455141388e01985634164c4a.jpg", "../img/menu/tra/1645970264_51427912-2275803252693688-2910246299053850624-n_29c21df8f34e41dc985cea20384ac9a3.jpeg"],
                 name: "Trà Hạt Sen - Nóng",
                 price: "59.000 đ",
                 description: "Nền trà oolong hảo hạng kết hợp cùng hạt sen tươi, bùi bùi thơm ngon. Trà hạt sen là thức uống thanh mát, nhẹ nhàng phù hợp cho cả buổi sáng và chiều tối."
             },
-            { category:"tra",
-                imgSrc: ["../img/menu/tra/bottle_tradao_836487_26e2fa52f31b4822a6f2c706a77d75f1.jpg","../img/menu/tra/1633147051_photo-2021-10-02-10-52-45_7ba8f4710d204b8c877d9eea317cf760.jpg","../img/menu/tra/1633147050_photo-2021-10-02-10-52-44_6524beea54404200a34ca1fc7123f489.jpg","../img/menu/tra/1633147051_photo-2021-10-02-10-56-21_2895e76c295c45c39a5abab519c6cdba.jpg"],
+            {
+                category: "tra",
+                imgSrc: ["../img/menu/tra/bottle_tradao_836487_26e2fa52f31b4822a6f2c706a77d75f1.jpg", "../img/menu/tra/1633147051_photo-2021-10-02-10-52-45_7ba8f4710d204b8c877d9eea317cf760.jpg", "../img/menu/tra/1633147050_photo-2021-10-02-10-52-44_6524beea54404200a34ca1fc7123f489.jpg", "../img/menu/tra/1633147051_photo-2021-10-02-10-56-21_2895e76c295c45c39a5abab519c6cdba.jpg"],
                 name: "Trà Đào Cam Sả Chai Fresh 500ML",
                 price: "105.000 đ",
                 description: "Với phiên bản chai fresh 500ml, thức uống 'best seller' đỉnh cao mang một diện mạo tươi mới, tiện lợi, phù hợp với bình thường mới và vẫn giữ nguyên vị thanh ngọt của đào, vị chua dịu của cam vàng nguyên vỏ và vị trà đen thơm lừng ly Trà đào cam sả nguyên bản. *Sản phẩm dùng ngon nhất trong ngày. *Sản phẩm mặc định mức đường và không đá."
@@ -244,37 +252,43 @@ var dataStorage =
 
     macchiatoData:
         [
-            { category:"tra",
+            {
+                category: "tra",
                 imgSrc: ["../img/menu/tra/tra-den-matchiato_430281_5d57903f55e745d4b547adbfe75b4e8d.jpg"],
                 name: "Trà Đen Macchiato",
                 price: "55.000 đ",
                 description: ""
             },
-            { category:"tra",
+            {
+                category: "tra",
                 imgSrc: ["../img/menu/tra/hong-tra-sua-tran-chau_326977_5553515f9fcf44009f3313020e83fbc8.jpg"],
                 name: "Hồng Trà Sữa Trân Châu",
                 price: "55.000 đ",
                 description: ""
             },
-            { category:"tra",
+            {
+                category: "tra",
                 imgSrc: ["../img/menu/tra/hong-tra-sua-nong_941687_9df07ba13d084c5c8d2dd780c14af4d4.jpg"],
                 name: "Hồng Trà Sữa Nóng",
                 price: "55.000 đ",
                 description: ""
             },
-            { category:"tra",
+            {
+                category: "tra",
                 imgSrc: ["../img/menu/tra/1669736877_tra-sua-oolong-nuong-tran-chau_0e1cad07ca1846819f27cb2a60da7e60.png"],
                 name: "Trà sữa Oolong Nướng Trân Châu",
                 price: "55.000 đ",
                 description: ""
             },
-            { category:"tra",
+            {
+                category: "tra",
                 imgSrc: ["../img/menu/tra/oolong-nuong-nong_948581_6bd78255e3f344459f0b5cda03aa75d3.jpg"],
                 name: "Trà sữa Oolong Nướng (Nóng)",
                 price: "55.000 đ",
                 description: ""
             },
-            { category:"tra",
+            {
+                category: "tra",
                 imgSrc: ["../img/menu/tra/bottle_oolong_285082_c0dcb40a4e8d4ec1a821d49710fc513c.jpg"],
                 name: "Trà Sữa Oolong Nướng Trân Châu Chai Fresh 500ML",
                 price: "95.000 đ",
@@ -283,19 +297,22 @@ var dataStorage =
         ],
 
     cloudfeeData: [
-        { category:"cloud",
+        {
+            category: "cloud",
             imgSrc: ["../img/menu/cloud/1697442235_cloudfee-hanh-nhan-nuong_ba2462626af44d86acc19997e654a0c3.jpg"],
             name: "CloudFee Hạnh Nhân Nướng",
             price: "49.000 đ",
             description: "Vị đắng nhẹ từ cà phê phin truyền thống kết hợp Espresso Ý, lẫn chút ngọt ngào của kem sữa và lớp foam trứng cacao, nhấn thêm hạnh nhân nướng thơm bùi, kèm topping thạch cà phê dai giòn mê ly. Tất cả cùng quyện hoà trong một thức uống làm vị giác 'thức giấc', thơm ngon hết nấc."
         },
-        { category:"cloud",
+        {
+            category: "cloud",
             imgSrc: ["../img/menu/cloud/1675329314_bg-cloudfee-caramel_107cf598043b4882af9cf2744797f11c.jpg"],
             name: "CloudFee Caramel",
             price: "49.000 đ",
             description: "Ngon khó cưỡng bởi xíu đắng nhẹ từ cà phê phin truyền thống pha trộn với Espresso lừng danh nước Ý, quyện vị kem sữa và caramel ngọt ngọt, thêm lớp foam trứng cacao bồng bềnh béo mịn, kèm topping thạch cà phê dai giòn nhai cực cuốn. Một thức uống 'điểm mười' cho cả ngày tươi không cần tưới."
         },
-        { category:"cloud",
+        {
+            category: "cloud",
             imgSrc: ["../img/menu/cloud/1675329376_bg-cloudfee-classic_540a54c192f3490ca9dfd3f2b46dcc67.jpg"],
             name: "CloudFee Hà Nội",
             price: "49.000 đ",
@@ -304,13 +321,15 @@ var dataStorage =
     ],
 
     cloudteamochiData: [
-        { category:"cloud",
+        {
+            category: "cloud",
             imgSrc: ["../img/menu/cloud/1700837685_tra-sua-oolong-berry-ly-thuy-tinh_a3d9b781b662421fa5dd1efd30fc162a.jpg"],
             name: "CloudTea Oolong Berry",
             price: "69.000 đ",
             description: ""
         },
-        { category:"cloud",
+        {
+            category: "cloud",
             imgSrc: ["../img/menu/cloud/1700837665_tra-sua-tra-xanh-tay-bac-ly-thuy-tinh_af143453afb3445c99645acb7dbe9495.jpg"],
             name: "CloudTea Trà Xanh Tây Bắc",
             price: "69.000 đ",
@@ -320,37 +339,43 @@ var dataStorage =
 
     hiteatraData:
         [
-            { category:"hitea",
+            {
+                category: "hitea",
                 imgSrc: ["../img/menu/hitea/1686716517_kombucha-dao_70ae9c30b2a64803b782226237cf150e.jpg"],
                 name: "Hi-Tea Đào Kombucha",
                 price: "59.000 đ",
                 description: ""
             },
-            { category:"hitea",
+            {
+                category: "hitea",
                 imgSrc: ["../img/menu/hitea/1686716508_kombucha-yuzu_fefa247b096648b4981929ef7ccb3923.jpg"],
                 name: "Hi-Tea Yuzu Kombucha",
                 price: "59.000 đ",
                 description: ""
             },
-            { category:"hitea",
+            {
+                category: "hitea",
                 imgSrc: ["../img/menu/hitea/1669736859_hi-tea-yuzu-tran-chau_f8fe19a58e884a748fbd460de8cb2d02.png"],
                 name: "Hi-Tea Yuzu Trân Châu",
                 price: "49.000 đ",
                 description: ""
             },
-            { category:"hitea",
+            {
+                category: "hitea",
                 imgSrc: ["../img/menu/hitea/1669736893_hi-tea-vai_5b6d0f757f2c44328f84fcb5fb972256.png", "../img/menu/hitea/1650529463_hi-tea-vai_f6c6a8ebc4bd492cbd8404a213155cbd.jpg", "../img/menu/hitea/1650529462_hi-tea-vai-1_a8dfcda67a8846db9604be911efb26c6.jpg"],
                 name: "Hi-Tea Vải",
                 price: "49.000 đ",
                 description: ""
             },
-            { category:"hitea",
+            {
+                category: "hitea",
                 imgSrc: ["../img/menu/hitea/1669737919_hi-tea-dao_db93192ba8274a7dbaef69bf127c206d.jpg"],
                 name: "Hi-Tea Đào",
                 price: "49.000 đ",
                 description: ""
             },
-            { category:"hitea",
+            {
+                category: "hitea",
                 imgSrc: ["../img/menu/hitea/1705920578_hi-tea-dau-tay-man-muoi-tran-chau_367a473a624b4069b36c67d0ba55d078.jpg"],
                 name: "Hi-Tea Dâu Tây Mận Muối Trân Châu",
                 price: "49.000 đ",
@@ -360,7 +385,8 @@ var dataStorage =
 
     hiteadatuyetData:
         [
-            { category:"hitea",
+            {
+                category: "hitea",
                 imgSrc: ["../img/menu/hitea/1705920511_da-tuyet-man-muoi-tran-chau_f62c10418bcd44ee9080f991c7ac0f6b.jpg"],
                 name: "Hi-Tea Đá Tuyết Mận Muối Trân Châu",
                 price: "59.000 đ",
@@ -369,25 +395,29 @@ var dataStorage =
         ],
 
     traxanhData: [
-        { category:"traxanh-chocolate",
+        {
+            category: "traxanh-chocolate",
             imgSrc: ["../img/menu/traxanhchoco/1697450388_tx-latte_ef8fdb94fb2a4691b0cc909188b77829.jpg"],
             name: "Trà Xanh Latte",
             price: "45.000 đ",
             description: ""
         },
-        { category:"traxanh-chocolate",
+        {
+            category: "traxanh-chocolate",
             imgSrc: ["../img/menu/traxanhchoco/1697450393_tx-latte-nong_3be6c0f019314336918968d951e588f2.jpg"],
             name: "Trà Xanh Latte (Nóng)",
             price: "45.000 đ",
             description: ""
         },
-        { category:"traxanh-chocolate",
+        {
+            category: "traxanh-chocolate",
             imgSrc: ["../img/menu/traxanhchoco/1697450399_tx-duong-den_3342d63e65df4bd7a264ca681b9e30f1.jpg"],
             name: "Trà Xanh Đường Đen",
             price: "55.000 đ",
             description: ""
         },
-        { category:"traxanh-chocolate",
+        {
+            category: "traxanh-chocolate",
             imgSrc: ["../img/menu/traxanhchoco/1697450407_tx-frosty_effb42ad21a54240b26ea1118c8d9d44.jpg"],
             name: "Frosty Trà Xanh",
             price: "59.000 đ",
@@ -397,13 +427,15 @@ var dataStorage =
 
     chocolateData:
         [
-            { category:"traxanh-chocolate",
+            {
+                category: "traxanh-chocolate",
                 imgSrc: ["../img/menu/traxanhchoco/chocolatenong_949029_826f20e85d5b48b4b5a6443c9a44321f.jpg"],
                 name: "Chocolate Nóng",
                 price: "55.000 đ",
                 description: ""
             },
-            { category:"traxanh-chocolate",
+            {
+                category: "traxanh-chocolate",
                 imgSrc: ["../img/menu/traxanhchoco/chocolate-da_877186_e3ecacc6bddc46788c562a9dc898e2d5.jpg"],
                 name: "Chocolate Đá",
                 price: "55.000 đ",
@@ -413,43 +445,50 @@ var dataStorage =
 
     daxayfrostyData:
         [
-            { category:"daxay",
+            {
+                category: "daxay",
                 imgSrc: ["../img/menu/daxay/1686626871_xoai-granola_2e132a8b7a6a430da97ba0b946146530.jpg"],
                 name: "Smoothie Xoài Nhiệt Đới Granola",
                 price: "65.000 đ",
                 description: ""
             },
-            { category:"daxay",
+            {
+                category: "daxay",
                 imgSrc: ["../img/menu/daxay/1686626879_phuc-bon-tu-granola_a856d27edd4c42e798452452309fe128.jpg"],
                 name: "Smoothie Phúc Bồn Tử Granola",
                 price: "65.000 đ",
                 description: ""
             },
-            { category:"daxay",
+            {
+                category: "daxay",
                 imgSrc: ["../img/menu/daxay/1697441914_phin-gato_304446dce9ec4fe0a5527536b93f6eda.png"],
                 name: "Frosty Phin-Gato",
                 price: "55.000 đ",
                 description: ""
             },
-            { category:"daxay",
+            {
+                category: "daxay",
                 imgSrc: ["../img/menu/daxay/1697441939_ca-phe-duong-den_684615fd8fce40c2a1f6a03e0555fe62.png"],
                 name: "Frosty Cà Phê Đường Đen",
                 price: "59.000 đ",
                 description: ""
             },
-            { category:"daxay",
+            {
+                category: "daxay",
                 imgSrc: ["../img/menu/daxay/1697441933_caramel-arabica_64cd3e11a9904076b7a64e24d6d20f21.png"],
                 name: "Frosty Caramel Arabica",
                 price: "59.000 đ",
                 description: ""
             },
-            { category:"daxay",
+            {
+                category: "daxay",
                 imgSrc: ["../img/menu/daxay/1697441945_banh-kem-dau_b1d03d84a9944d458f5948a3b7ce48f3.png"],
                 name: "Frosty Bánh Kem Dâu",
                 price: "59.000 đ",
                 description: ""
             },
-            { category:"daxay",
+            {
+                category: "daxay",
                 imgSrc: ["../img/menu/daxay/1697441952_choco-chip_06433e0e342b40d7bc59391be6df4c84.png"],
                 name: "Frosty Choco Chip",
                 price: "59.000 đ",
@@ -459,37 +498,43 @@ var dataStorage =
 
     banhmanData:
         [
-            { category:"banh-snack",
+            {
+                category: "banh-snack",
                 imgSrc: ["../img/menu/banhsnack/1669736956_banh-mi-que-pate_8b9bf080e6784fd2bf22b788c46d6fd3.png"],
                 name: "Bánh Mì Que Pate",
                 price: "15.000 đ",
                 description: ""
             },
-            { category:"banh-snack",
+            {
+                category: "banh-snack",
                 imgSrc: ["../img/menu/banhsnack/banhmique_683851_cb0fdc3817954d59847911ed5c516907.jpg"],
                 name: "Bánh Mì Que Pate Cay",
                 price: "15.000 đ",
                 description: ""
             },
-            { category:"banh-snack",
+            {
+                category: "banh-snack",
                 imgSrc: ["../img/menu/banhsnack/1638440015_banh-mi-vietnam_6dee0f61fe3640b5bba43089c5665a60.jpg"],
                 name: "Bánh Mì VN Thịt Nguội",
                 price: "39.000 đ",
                 description: ""
             },
-            { category:"banh-snack",
+            {
+                category: "banh-snack",
                 imgSrc: ["../img/menu/banhsnack/croissant-trung-muoi_880850_23cbfbdcdd704488b00ef4f723fdba3c.jpg"],
                 name: "Croissant trứng muối",
                 price: "39.000 đ",
                 description: ""
             },
-            { category:"banh-snack",
+            {
+                category: "banh-snack",
                 imgSrc: ["../img/menu/banhsnack/1701780462_butter-sua-dac_35d465d25464481aa2b70d3fc2f3181b.jpg"],
                 name: "Butter Croissant Sữa Đặc",
                 price: "35.000 đ",
                 description: ""
             },
-            { category:"banh-snack",
+            {
+                category: "banh-snack",
                 imgSrc: ["../img/menu/banhsnack/1669736993_cha-bong-pho-mai_65b01da6e41e4f6a99f98778a09910f7.png"],
                 name: "Chà Bông Phô Mai",
                 price: "39.000 đ",
@@ -499,49 +544,57 @@ var dataStorage =
 
     banhngotData:
         [
-            { category:"banh-snack",
+            {
+                category: "banh-snack",
                 imgSrc: ["../img/menu/banhsnack/1643102019_mochi-phucbontu_04be2f5b60dc456db9b916839f662855.jpg"],
                 name: "Mochi Kem Phúc Bồn Tử",
                 price: "19.000 đ",
                 description: ""
             },
-            { category:"banh-snack",
+            {
+                category: "banh-snack",
                 imgSrc: ["../img/menu/banhsnack/1643102034_mochi-vietquat_fa28aa034b39491f9379a3d9e2c3ba43.jpg"],
                 name: "Mochi Kem Việt Quất",
                 price: "19.000 đ",
                 description: ""
             },
-            { category:"banh-snack",
+            {
+                category: "banh-snack",
                 imgSrc: ["../img/menu/banhsnack/1643101996_mochi-dua_4fff7550829d4ac5a26c608c15b130dd.jpg"],
                 name: "Mochi Kem Dừa Dứa",
                 price: "19.000 đ",
                 description: ""
             },
-            { category:"banh-snack",
+            {
+                category: "banh-snack",
                 imgSrc: ["../img/menu/banhsnack/1655348107_mochi-choco_7a9b9ed63bd44ffd93932b2b29bfc5b8.jpg"],
                 name: "Mochi Kem Chocolate",
                 price: "19.000 đ",
                 description: ""
             },
-            { category:"banh-snack",
+            {
+                category: "banh-snack",
                 imgSrc: ["../img/menu/banhsnack/1655348113_mochi-traxanh_c064ca8b2ba64330b0b9d78f391b997f.jpg"],
                 name: "Mochi Kem Matcha",
                 price: "19.000 đ",
                 description: ""
             },
-            { category:"banh-snack",
+            {
+                category: "banh-snack",
                 imgSrc: ["../img/menu/banhsnack/1643101968_mochi-xoai_23dc267920a74fb58b8bbf0bd77eea61.jpg"],
                 name: "Mochi Kem Xoài",
                 price: "19.000 đ",
                 description: ""
             },
-            { category:"banh-snack",
+            {
+                category: "banh-snack",
                 imgSrc: ["../img/menu/banhsnack/1638170137_tiramisu_deaf42a28fd6491daa2fd68842d9da4c.jpg"],
                 name: "Mousse Tiramisu",
                 price: "35.000 đ",
                 description: ""
             },
-            { category:"banh-snack",
+            {
+                category: "banh-snack",
                 imgSrc: ["../img/menu/banhsnack/1638170066_gau_984d59ace718449a8c60c96feb6c987e.jpg"],
                 name: "Mousse Gấu Chocolate",
                 price: "39.000 đ",
@@ -551,19 +604,22 @@ var dataStorage =
 
     banhpastryData:
         [
-            { category:"banh-snack",
+            {
+                category: "banh-snack",
                 imgSrc: ["../img/menu/banhsnack/1698736606_butter-croissant_c17d432d4ae9439c8784d16cd052a1fe.jpg"],
                 name: "Butter Croissant",
                 price: "29.000 đ",
                 description: ""
             },
-            { category:"banh-snack",
+            {
+                category: "banh-snack",
                 imgSrc: ["../img/menu/banhsnack/1712139673_choco_663e80c0e3a44c2cb009b60344289f8b.jpg"],
                 name: "Choco Croffle",
                 price: "39.000 đ",
                 description: ""
             },
-            { category:"banh-snack",
+            {
+                category: "banh-snack",
                 imgSrc: ["../img/menu/banhsnack/1698736662_pate-chaud_b35c6664c20e42fbbf55ba14810f04af.jpg"],
                 name: "Pate Chaud",
                 price: "39.000 đ",
@@ -573,37 +629,43 @@ var dataStorage =
 
     caphetainhaData:
         [
-            { category:"tainha",
+            {
+                category: "tainha",
                 imgSrc: ["../img/menu/tainha/1697446642_ca-phe-den-da-tui_a178a9f2d9a84425b5c5397da639bf92.jpg"],
                 name: "Cà Phê Đen Đá Túi (30 gói x 16g)",
                 price: "116.000 đ",
                 description: ""
             },
-            { category:"tainha",
+            {
+                category: "tainha",
                 imgSrc: ["../img/menu/tainha/cpsd-3in1_971575_21adaf23d2854493afe6c4941308079d.jpg"],
                 name: "Cà Phê Sữa Đá Hòa Tan (10 gói x 22g)",
                 price: "48.000 đ",
                 description: ""
             },
-            { category:"tainha",
+            {
+                category: "tainha",
                 imgSrc: ["../img/menu/tainha/1639648355_ca-phe-sua-da-hoa-tan-tui-25x22gr_78055e22bf7c4b17bb917cfbbf60ac06.jpg"],
                 name: "Cà Phê Sữa Đá Hòa Tan Túi 25x22G",
                 price: "114.000 đ",
                 description: ""
             },
-            { category:"tainha",
+            {
+                category: "tainha",
                 imgSrc: ["../img/menu/tainha/1639648313_ca-phe-sua-da-hoa-tan-dam-vi-viet_cae2bfaf82ca499597e1b2f5b947b4b3.jpg"],
                 name: "Cà Phê Hoà Tan Đậm Vị Việt (18 gói x 16 gam)",
                 price: "55.000 đ",
                 description: ""
             },
-            { category:"tainha",
+            {
+                category: "tainha",
                 imgSrc: ["../img/menu/tainha/p6-lon-3in1_717216_99bfb5b1366f4fe6bc2383d697102d26.jpg"],
                 name: "Cà Phê Sữa Đá Pack 6 Lon",
                 price: "84.000 đ",
                 description: ""
             },
-            { category:"tainha",
+            {
+                category: "tainha",
                 imgSrc: ["../img/menu/tainha/24-lon-cpsd_225680_272d2572b0a94256b7e9f81cf07ae299.jpg"],
                 name: "Thùng 24 Lon Cà Phê Sữa Đá",
                 price: "336.000 đ",
@@ -613,19 +675,22 @@ var dataStorage =
 
     chaifresh0daData:
         [
-            { category:"tainha",
+            {
+                category: "tainha",
                 imgSrc: ["../img/menu/caphe/bottlecfsd_496652_2c8559df23e740f3bb1b74a01975076c.jpg", "../img/menu/caphe/1633146194_photo-2021-10-02-10-42-28_5e75eafee9ec4e6f93b017b55fc01a08.jpg", "../img/menu/caphe/1633146193_photo-2021-10-02-10-42-46_f81d6b571f834783b3cfae1b0d3cb69b.jpg", "../img/menu/caphe/1633146193_photo-2021-10-02-10-42-41_d96a460b250f466d96a9054ed20a08d4.jpg"],
                 name: "Cà Phê Sữa Đá Chai Fresh 250ML",
                 price: "75.000 đ",
                 description: ""
             },
-            { category:"tainha",
+            {
+                category: "tainha",
                 imgSrc: ["../img/menu/tra/bottle_tradao_836487_26e2fa52f31b4822a6f2c706a77d75f1.jpg"],
                 name: "Trà Đào Cam Sả Chai Fresh 500ML",
                 price: "105.000 đ",
                 description: ""
             },
-            { category:"tainha",
+            {
+                category: "tainha",
                 imgSrc: ["../img/menu/tra/bottle_oolong_285082_c0dcb40a4e8d4ec1a821d49710fc513c.jpg"],
                 name: "Trà Sữa Oolong Nướng Trân Châu Chai Fresh 500ML",
                 price: "95.000 đ",
