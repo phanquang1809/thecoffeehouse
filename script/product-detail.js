@@ -91,6 +91,40 @@ function hienthi() {
     }
   }
 }
+
+//Tính lại giá tiền khi thêm option và topping
+var options = document.querySelectorAll('.product-option-item')
+var toppings = document.querySelectorAll('.product-topping-item')
+var productPrice = document.querySelector('.product-item-price');
+var temp = 0
+options.forEach(function (option) {
+  option.addEventListener('click', function () {
+
+    options.forEach(function (e) {
+      e.classList.remove('active')
+    });
+    option.classList.add('active');
+    var priceProc = parseInt(productPrice.textContent.replace(/\D+/g, ''));
+    var priceOpt = parseInt(option.dataset.price)
+    priceProc -= temp;
+    temp = priceOpt
+    priceProc += temp
+    productPrice.textContent = (priceProc).toLocaleString('vi-VN') + ' đ';
+  })
+})
+toppings.forEach(function (topping) {
+  topping.addEventListener('click', function () {
+    this.classList.toggle('active')
+    var toppingIsActive = this.classList.contains('active');
+    var priceProc = parseInt(productPrice.textContent.replace(/\D+/g, ''));
+    if (toppingIsActive)
+      priceProc += 10000
+    else
+      priceProc -= 10000
+    productPrice.textContent = (priceProc).toLocaleString('vi-VN') + ' đ';
+  })
+})
+
 //lấy sản phẩm liên quan trong cùng danh mục
 function relatedProduct(imgSrc, name, price, description) {
   var itemId = 'proc' + itemIdCounter++;

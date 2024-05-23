@@ -1,6 +1,5 @@
-// Lấy tham chiếu đến nút
+// nút chạy về đầu trang
  const scrollTopButton = document.getElementById('scrollTopButton');
- // Cuộn lên đầu trang khi nhấp vào nút
  scrollTopButton.addEventListener('click', function() {
      window.scrollTo({
          top: 0,
@@ -18,32 +17,20 @@ let lastScrollY = window.scrollY;
       }
       lastScrollY = window.scrollY;
   });
-// Lấy ra tất cả các div con trong .top-bar-info
+// chức năng ẩn hiện top-bar-info
 const divs = document.querySelectorAll('.top-bar-info > div');
-
-// Số lượng div con
 const numDivs = divs.length;
-
-// Index của div đang hiển thị
 let currentIndex = 0;
-
-// Ẩn tất cả các div con
 divs.forEach(div => div.classList.remove('active'));
-
-// Hiển thị div đầu tiên
 divs[currentIndex].classList.add('active');
-
-// Hàm tự động chuyển đổi giữa các div
 function toggleNextDiv() {
     divs[currentIndex].classList.remove('active');
     currentIndex = (currentIndex + 1) % numDivs;
     divs[currentIndex].classList.add('active');
 }
+setInterval(toggleNextDiv, 3000); 
 
-// Thiết lập hàm định kỳ để tự động chuyển đổi div sau mỗi khoảng thời gian
-setInterval(toggleNextDiv, 3000); // Chuyển đổi sau mỗi 3 giây (3000 milliseconds)
-
-
+//khai báo các danh mục cha và danh mục con
 const categoryLv1 =
 {
   'all': 'category-all',
@@ -84,7 +71,7 @@ const categoryLv2 = {
   'caphetainha': 'category-caphetainha',
   'chaifresh0da': 'category-chaifresh0da'
 };
-//Load sang trang collection
+//Load sang trang collection theo đúng danh mục được click
 const url = new URLSearchParams(window.location.search);
 const category = url.get('category');
 if (category) {
@@ -95,7 +82,6 @@ if (category) {
     }, 1000);
   }
 }
-
 //Kích hoạt và hiển thị sản phẩm theo category tương ứng
 function showActive(id) {
   updateUrl(id);
@@ -128,7 +114,7 @@ function activeCategory(category) {
     sidebarItem.classList.add('active-color')
   }
 }
-
+//hiển thị sản phẩm theo danh mục
 function showProduct(category) {
   var listCategory = document.querySelectorAll('.category')
   var catItem = document.getElementById(category.replace('category-', ''))
@@ -156,38 +142,6 @@ function updateUrl(category) {
   var newUrl = baseUrl + '?category=' + category
   history.pushState({ path: newUrl }, '', newUrl);
 }
-//Tính lại giá tiền khi thêm option và topping
-var options = document.querySelectorAll('.product-option-item')
-var toppings = document.querySelectorAll('.product-topping-item')
-var productPrice = document.querySelector('.product-item-price');
-var temp = 0
-options.forEach(function (option) {
-  option.addEventListener('click', function () {
-
-    options.forEach(function (e) {
-      e.classList.remove('active')
-    });
-    option.classList.add('active');
-    var priceProc = parseInt(productPrice.textContent.replace(/\D+/g, ''));
-    var priceOpt = parseInt(option.dataset.price)
-    priceProc -= temp;
-    temp = priceOpt
-    priceProc += temp
-    productPrice.textContent = (priceProc).toLocaleString('vi-VN') + ' đ';
-  })
-})
-toppings.forEach(function (topping) {
-  topping.addEventListener('click', function () {
-    this.classList.toggle('active')
-    var toppingIsActive = this.classList.contains('active');
-    var priceProc = parseInt(productPrice.textContent.replace(/\D+/g, ''));
-    if (toppingIsActive)
-      priceProc += 10000
-    else
-      priceProc -= 10000
-    productPrice.textContent = (priceProc).toLocaleString('vi-VN') + ' đ';
-  })
-})
 
 var items = document.querySelectorAll('.item')
 items.forEach((item) => {

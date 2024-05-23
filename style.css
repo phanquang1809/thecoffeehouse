@@ -221,11 +221,11 @@ header {
     }
 
     .custom-dropdown {
-        padding: 0 100px;
+        padding: 30px 10px;
     }
 
     .menu-blog {
-        padding: 0 200px !important;
+        padding: 30px 200px !important;
     }
 }
 
@@ -391,7 +391,7 @@ header {
 }
 
 .menu-blog {
-    padding: 30px 500px 0;
+    /* padding: 30px 500px 0; */
 }
 
 .menu-blog .custom-dropdown-item {
@@ -399,7 +399,7 @@ header {
 }
 
 .menu-blog .custom-dropdown-item::after {
-    width: 100%;
+    width: 70%;
 
 }
 
