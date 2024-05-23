@@ -1,4 +1,9 @@
 [[redirects]]
+  from = "/templates/*"
+  to = "/:splat"
+  status = 200
+
+[[redirects]]
   from = "/"
   to = "/Home.html"
   status = 200
