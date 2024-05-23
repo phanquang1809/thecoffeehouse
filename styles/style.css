@@ -1074,7 +1074,7 @@ border-radius: 8px;
     z-index: 100;
     border: none;
     outline: none;
-    background-color: #e57905; /* Màu cà phê */
+    background-color: #ffca43; /* Màu cà phê */
     color: white;
     cursor: pointer;
     border-radius: 50%;
@@ -1082,7 +1082,7 @@ border-radius: 8px;
     transition: background-color 0.3s;
 }
 #scrollTopButton:hover {
-    background-color: #5a382d; /* Màu cà phê đậm hơn */
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.7), 0 0 40px rgba(255, 215, 0, 0.5), 0 0 60px rgba(255, 215, 0, 0.3);
 }
 #scrollTopButton i {
     font-size: 24px;
@@ -1288,6 +1288,7 @@ border-radius: 8px;
     position: relative;
     overflow: hidden;
     margin-top: 20px;
+    font-family:   'Roboto Mono', monospace !important;
 }
 
 .shiny-button::before {
