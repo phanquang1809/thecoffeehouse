@@ -1,4 +1,3 @@
-
 // Lặp qua từng phần tử và đặt nội dung văn bản của nó thành rỗng
 var elements = document.querySelectorAll('.product-page');
 elements.forEach(function (element) {

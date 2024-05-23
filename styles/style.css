@@ -23,7 +23,18 @@ body {
 .carousel-indicators button.active {
     background-color: #e57d0d !important;
 }
-
+.desktop
+{
+    display: block;
+}
+.mobile
+{
+    display: none;
+}
+#text-area
+{
+    width: 100%; 
+}
 li {
     list-style-type: none !important;
 }
@@ -446,6 +457,21 @@ header {
     border-radius: 50%;
     color: #fff !important;
     font-weight: bold;
+}
+.list-store
+{
+    padding: 20px 0 40px 0;
+}
+.store-title
+{
+    padding: 0 10px 24px 10px;
+    color: #222222;
+    position: relative;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
 }
 /* trang san pham */
 .custom-container {
@@ -919,6 +945,7 @@ border-radius: 8px;
 .product-detail-title>h4 {
     font-size: 18px;
     margin-bottom: 8px;
+    font-weight: bold;
 }
 
 .breadcrumb-title {

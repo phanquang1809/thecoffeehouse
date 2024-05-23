@@ -1,7 +1,4 @@
 @media screen and (max-width:1280px) {
-    .home-carousel {
-    
-    }
 
     .custom-dropdown {
         padding: 30px 10px;
@@ -19,7 +16,7 @@
     }
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:991px) {
     .menu {
         display: none !important;
     }
@@ -43,19 +40,7 @@
         height: 200px !important;
     }
 }
-.desktop
-{
-    display: block;
-}
-.mobile
-{
-    display: none;
-}
-#text-area
-{
-    width: 100%; 
-}
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
 
     .desktop
     {

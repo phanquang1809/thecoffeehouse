@@ -8,7 +8,7 @@
  });
 let lastScrollY = window.scrollY;
  window.addEventListener('scroll', () => {
-      if (window.scrollY > lastScrollY) {
+      if (window.scrollY > lastScrollY || window.scrollY==0) {
           // Cuộn xuống
           scrollTopButton.style.display = 'none';
       } else {
