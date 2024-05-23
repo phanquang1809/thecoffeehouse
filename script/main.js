@@ -115,34 +115,78 @@ function activeCategory(category) {
   }
 }
 //hiển thị sản phẩm theo danh mục
+// function showProduct(category) {
+//   var listCategory = document.querySelectorAll('.category')
+//   var catItem = document.getElementById(category.replace('category-', ''))
+//   listCategory.forEach((cat) => {
+//     if (category != 'all')
+//       cat.style.display = 'none'
+//     else {
+//       cat.style.display = 'flex'
+//     }
+//   })
+//   if (categoryLv1.hasOwnProperty(category)) {
+//     var catProc = catItem.querySelectorAll('.category')
+//     catProc.forEach((proc) => {
+//       proc.style.display = 'flex'
+//     })
+//   }
+//   else {
+//     catItem.style.display = 'flex'
+//   }
+// }
 function showProduct(category) {
-  var listCategory = document.querySelectorAll('.category')
-  var catItem = document.getElementById(category.replace('category-', ''))
+  var listCategory = document.querySelectorAll('.category');
+  var catItem = document.getElementById(category.replace('category-', ''));
+
   listCategory.forEach((cat) => {
-    if (category != 'all')
-      cat.style.display = 'none'
-    else {
-      cat.style.display = 'flex'
+    cat.classList.remove('show'); // Đảm bảo loại bỏ lớp 'show' trước khi thêm
+    if (category !== 'all') {
+      cat.style.display = 'none'; // Ẩn tất cả các phần tử category nếu không phải là 'all'
+    } else {
+      cat.classList.add('show'); // Thêm lớp 'show' để kích hoạt hiệu ứng chuyển đổi
     }
-  })
+  });
+
   if (categoryLv1.hasOwnProperty(category)) {
-    var catProc = catItem.querySelectorAll('.category')
+    var catProc = catItem.querySelectorAll('.category');
     catProc.forEach((proc) => {
-      proc.style.display = 'flex'
-    })
-  }
-  else {
-    catItem.style.display = 'flex'
+      proc.classList.remove('show'); // Đảm bảo loại bỏ lớp 'show' trước khi thêm
+      proc.style.display = 'flex';
+      setTimeout(() => {
+        proc.classList.add('show'); // Thêm lớp 'show' để kích hoạt hiệu ứng chuyển đổi
+      }, 10); // Đợi một khoảng thời gian rất nhỏ trước khi thêm lớp 'show'
+    });
+  } else {
+    catItem.classList.remove('show'); // Đảm bảo loại bỏ lớp 'show' trước khi thêm
+    catItem.style.display = 'flex';
+    setTimeout(() => {
+      catItem.classList.add('show'); // Thêm lớp 'show' để kích hoạt hiệu ứng chuyển đổi
+    }, 10); // Đợi một khoảng thời gian rất nhỏ trước khi thêm lớp 'show'
   }
 }
+
 //Cập nhật lại url
 function updateUrl(category) {
   var currentURL = window.location.href;
   var baseUrl = currentURL.split('?')[0];
+  console.log(baseUrl);
   var newUrl = baseUrl + '?category=' + category
   history.pushState({ path: newUrl }, '', newUrl);
 }
+//Hiển thị sản phẩm theo danh mục được chọn
+var selectMenu = document.querySelector('.form-select');
+if(selectMenu)
+  {
+    selectMenu.addEventListener('change', function() {
+      var selectedOption = this.options[this.selectedIndex]; 
+      showProduct(selectedOption.value)
+      updateUrl(selectedOption.value)
+  });
+  }
 
+
+//Đẩy thông tin sản phẩm được click xuống localstorage
 var items = document.querySelectorAll('.item')
 items.forEach((item) => {
   item.addEventListener('click', () => {

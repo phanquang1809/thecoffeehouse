@@ -511,6 +511,18 @@ header {
     cursor: default;
 
 }
+.category {
+    display: none;
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.category.show {
+    display: flex;
+    opacity: 1;
+    transform: translateX(0);
+}
 
 .category-info:hover {
     color: black !important;
@@ -589,6 +601,10 @@ header {
     color: #FFD43B; 
 }
 /* sidebar menu */
+.form-select
+{
+    display: none !important;
+}
 .sidebar {
     position: sticky;
     top: 70px;

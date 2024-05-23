@@ -212,35 +212,6 @@ items.forEach((item) => {
     saveProcduct(item.id)
   })
 })
-//rating
-// var star=document.querySelectorAll('.star-rating')
-// star.forEach((starItem,index)=>{
-//   starItem.addEventListener('click',()=>{
-//     star.forEach((e,starIndex)=>
-//       {
-//         e.classList.remove('active')
-//         if(starIndex<=index)
-//           {
-//             e.classList.add('active')
-//           }
-//       })
-//   })
-//   starItem.addEventListener('mouseenter',()=>{
-//     star.forEach((e,starIndex)=>
-//     {
-//       if(starIndex<=index)
-//         {
-//           e.classList.add('active')
-//         }
-//     })
-// })
-// starItem.addEventListener('mouseleave',()=>{
-//   star.forEach((e)=>
-//   {
-//     e.classList.remove('active')
-//   })
-// })
-// })
 const stars = document.querySelectorAll('.star-rating');
 let clickedIndex = -1;
 
