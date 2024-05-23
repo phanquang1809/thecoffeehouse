@@ -601,6 +601,36 @@ header {
     user-select: none;
     color: #FFD43B; 
 }
+/* comment */
+.comment
+{
+    margin-top: 20px;
+
+}
+.comment-item
+{
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+.comment-item .customer-avt
+{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background-color: #673340;
+    border-radius: 50%;
+    font-weight: bold;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; border: 1px solid black;
+}
+.comment-item .customer-name
+{
+    font-weight: bold;
+}
 /* sidebar menu */
 .form-select
 {
