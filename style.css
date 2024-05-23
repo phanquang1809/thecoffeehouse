@@ -118,14 +118,23 @@ header {
     justify-content: center;
     height: 40px;
 }
+.top-bar-info-item {
+     /* Chuyển đổi opacity trong 0.5 giây với hiệu ứng ease-in-out */
+}
 
+.top-bar-info-item.active {
+   /* Hiển thị div active */
+}
 .top-bar-info div {
     padding-top: 5px;
     padding-left: 10px;
     text-align: center;
+    display: none;
+    transition: opacity 0.5s ease-in-out;
 }
 .top-bar-info div.active {
-    opacity: 1;
+    display: block;
+    opacity: 1; 
 }
 .top-bar-info div a {
     color: #00000099;

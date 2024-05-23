@@ -18,6 +18,32 @@ let lastScrollY = window.scrollY;
       }
       lastScrollY = window.scrollY;
   });
+// Lấy ra tất cả các div con trong .top-bar-info
+const divs = document.querySelectorAll('.top-bar-info > div');
+
+// Số lượng div con
+const numDivs = divs.length;
+
+// Index của div đang hiển thị
+let currentIndex = 0;
+
+// Ẩn tất cả các div con
+divs.forEach(div => div.classList.remove('active'));
+
+// Hiển thị div đầu tiên
+divs[currentIndex].classList.add('active');
+
+// Hàm tự động chuyển đổi giữa các div
+function toggleNextDiv() {
+    divs[currentIndex].classList.remove('active');
+    currentIndex = (currentIndex + 1) % numDivs;
+    divs[currentIndex].classList.add('active');
+}
+
+// Thiết lập hàm định kỳ để tự động chuyển đổi div sau mỗi khoảng thời gian
+setInterval(toggleNextDiv, 3000); // Chuyển đổi sau mỗi 3 giây (3000 milliseconds)
+
+
 const categoryLv1 =
 {
   'all': 'category-all',
