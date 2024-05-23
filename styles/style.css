@@ -525,7 +525,19 @@ header {
 .item:hover {
     transform: translateY(-5px);
 }
+.carousel-control-prev-icon,.carousel-control-next-icon
+{
+    background-size: 50px !important;
+}
 
+.carousel-control-prev-icon
+{
+    margin-left: 10px;
+}
+.carousel-control-next-icon
+{
+    margin-right: 10px;
+}
 .item-img img {
     width: 100%;
 }
