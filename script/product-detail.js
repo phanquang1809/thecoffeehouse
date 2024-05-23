@@ -218,6 +218,7 @@ stars.forEach((starItem, index) => {
             e.classList.remove('active');
             if (starIndex <= index) {
                 e.classList.add('active');
+                e.style.transform = 'none';
             }
         });
     });
@@ -226,6 +227,7 @@ stars.forEach((starItem, index) => {
         stars.forEach((e, starIndex) => {
             if (starIndex <= index) {
                 e.classList.add('active');
+                e.style.transform = 'rotate(8deg)'
             }
         });
     });
@@ -233,6 +235,7 @@ stars.forEach((starItem, index) => {
     starItem.addEventListener('mouseleave', () => {
         stars.forEach((e, starIndex) => {
             e.classList.remove('active');
+            e.style.transform = 'none';
             if (starIndex <= clickedIndex) {
                 e.classList.add('active');
             }

@@ -24,10 +24,6 @@ body {
 .carousel-indicators button.active {
     background-color: #e57d0d !important;
 }
-/* .carousel-control-next,.carousel-control-prev
-{
-    top: -100px !important;
-} */
 
 li {
     list-style-type: none !important;
@@ -61,17 +57,12 @@ footer {
 .header {
     transition: top 0.3s;
     border-bottom: 1px solid #00000026;
+    height: 60px;
 }
-
-/* .header.hidden {
-    top: -60px;
-} */
 
 .custom-logo {
     width: 100px;
-    /* Độ rộng của logo */
     height: auto;
-    /* Chiều cao tự động tính toán dựa trên tỷ lệ */
     animation: spin 1s linear infinite;
 }
 
@@ -83,9 +74,7 @@ footer {
     width: 100%;
     height: 100%;
     background-color: white;
-    /* Màu nền với độ trong suốt */
     z-index: 9999;
-    /* Đảm bảo overlay nổi lên trên toàn bộ phần tử khác */
 }
 
 .spinner-container {
@@ -94,7 +83,6 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10000;
-    /* Đảm bảo spinner nổi lên trên overlay */
 }
 
 header {
@@ -258,6 +246,10 @@ header {
         width: 100% !important;
         padding-left: 12px !important;
     }
+    .blog-item-img
+    {
+        height: 200px !important;
+    }
 }
 .desktop
 {
@@ -280,6 +272,27 @@ header {
     .mobile
     {
         display: block;
+    }
+    .header-carousel {
+        transform: translateY(-45px);
+    }
+    .navbar 
+    {
+        padding-bottom: 0 !important;
+    }
+    .blog-item 
+    {
+        flex-direction: column !important;
+        margin-bottom: 40px !important;
+    }
+    .blog-item-img
+    {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+    .blog-info
+    {
+        width: 100% !important;
     }
 }
 .carousel-control-prev,
@@ -381,13 +394,9 @@ header {
 
 }
 
-.navbar-nav {}
-
 .navbar-brand {
     width: 240px;
 }
-
-.row {}
 
 .row>.fchild {
     width: 20%;
@@ -404,6 +413,14 @@ header {
 .dropdown
 {
     display: none;
+}
+.dropdown a
+{
+    color: #000;
+}
+.dropdown-item:hover
+{
+    background-color: #fff !important;
 }
 .underline-container {
     position: relative;
@@ -500,7 +517,14 @@ header {
     overflow: hidden;
     display: -webkit-box;
 }
-
+#pagination a {
+    text-decoration: none;
+    background-color: #e57905;
+    padding: 15px 20px;
+    border-radius: 50%;
+    color: #fff !important;
+    font-weight: bold;
+}
 /* trang san pham */
 .custom-container {
     width: 100%;
@@ -595,32 +619,20 @@ header {
 }
 
 .fa-star {
-    font-size: 2em;
-    color: #ccc; /* Màu xám nhạt cho ngôi sao chưa chọn */
+    color: #ccc;
     cursor: pointer;
-    transition: color 0.2s, transform 0.2s;
-}
-
-.fa-star:hover {
-    color: #FFD43B; /* Màu vàng khi hover */
-    transform: rotate(10deg); /* Hiệu ứng nghiêng ngôi sao */
-}
-.star-rating
-{
-    user-select: none;
-
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 .star-rating.active
 {
     user-select: none;
-    color: #FFD43B; /* Màu vàng khi hover */
+    color: #FFD43B; 
 }
 /* sidebar menu */
 .sidebar {
     position: sticky;
     top: 70px;
     transition: top 0.3s;
-
 }
 
 .sidebar.active {
@@ -644,8 +656,6 @@ header {
 .sidebar>ul {
     padding-left: 1rem !important;
 }
-
-.menu-side {}
 
 .sidebar li a {
     display: inline-block;
@@ -686,9 +696,7 @@ header {
     left: 0;
     background-image: url(./img/bincoffee.png);
     background-size: 16px;
-    /* Đặt kích thước của background là 16px */
     background-repeat: no-repeat;
-    /* Ngăn lặp lại */
 }
 
 .sidebar a.child-active::before {
@@ -700,9 +708,7 @@ header {
     left: 0;
     background-image: url(./img/child.png);
     background-size: 16px;
-    /* Đặt kích thước của background là 16px */
     background-repeat: no-repeat;
-    /* Ngăn lặp lại */
 }
 
 .sidebar-menu li {
