@@ -14,22 +14,29 @@
     .nav-item {
         padding: 0 10px !important;
     }
-    .nav-link
-    {
+
+    .nav-link {
         font-size: 14px !important;
     }
 }
 
 @media screen and (max-width:991px) {
+    .navbar-brand {
+        position: relative;
+        left: 52%;
+        transform: translateX(-45%);
+    }
+
     .menu {
         display: none !important;
     }
-    .form-select
-    {
+
+    .form-select {
         display: block !important;
         margin-bottom: 20px;
         border-radius: 10px !important;
     }
+
     .dropdown {
         display: block !important;
     }

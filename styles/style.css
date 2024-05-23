@@ -1074,7 +1074,7 @@ border-radius: 8px;
     z-index: 100;
     border: none;
     outline: none;
-    background-color: #ffca43; /* Màu cà phê */
+    background:linear-gradient(45deg, #e57d0d, #ffff99);
     color: white;
     cursor: pointer;
     border-radius: 50%;

@@ -45,7 +45,7 @@ var dataStorage =
                 imgSrc: ["../img/menu/caphe/1639377904_bac-siu_525b9fa5055b41f183088c8e479a9472.jpg", "../img/menu/caphe/1645962337_bac-siu-da-2_e2c96c8ab5f44365bfbc32b0849c0f62.png"],
                 name: "Bạc Sỉu",
                 price: "29.000 đ",
-                description: "Bạc sỉu chính là 'Ly sữa trắng kèm một chút cà phê'. Thức uống này rất phù hợp những ai vừa muốn trải nghiệm chút vị đắng của cà phê vừa muốn thưởng thức vị ngọt béo ngậy từ sữa."
+                description: "Bạc sỉu chính là “Ly sữa trắng kèm một chút cà phê”. Thức uống này rất phù hợp những ai vừa muốn trải nghiệm chút vị đắng của cà phê vừa muốn thưởng thức vị ngọt béo ngậy từ sữa."
             },
             {
                 category: "caphe",
@@ -73,7 +73,7 @@ var dataStorage =
                 imgSrc: ["../img/menu/caphe/1639377926_bacsiunong_51fd4560c6b74a249176abc43f8f0ad6.jpg"],
                 name: "Bạc Sỉu Nóng",
                 price: "39.000 đ",
-                description: "Bạc sỉu chính là 'Ly sữa trắng kèm một chút cà phê'. Thức uống này rất phù hợp những ai vừa muốn trải nghiệm chút vị đắng của cà phê vừa muốn thưởng thức vị ngọt béo ngậy từ sữa."
+                description: "Bạc sỉu chính là “Ly sữa trắng kèm một chút cà phê”. Thức uống này rất phù hợp những ai vừa muốn trải nghiệm chút vị đắng của cà phê vừa muốn thưởng thức vị ngọt béo ngậy từ sữa."
             },
             {
                 category: "caphe",
@@ -246,7 +246,7 @@ var dataStorage =
                 imgSrc: ["../img/menu/tra/bottle_tradao_836487_26e2fa52f31b4822a6f2c706a77d75f1.jpg", "../img/menu/tra/1633147051_photo-2021-10-02-10-52-45_7ba8f4710d204b8c877d9eea317cf760.jpg", "../img/menu/tra/1633147050_photo-2021-10-02-10-52-44_6524beea54404200a34ca1fc7123f489.jpg", "../img/menu/tra/1633147051_photo-2021-10-02-10-56-21_2895e76c295c45c39a5abab519c6cdba.jpg"],
                 name: "Trà Đào Cam Sả Chai Fresh 500ML",
                 price: "105.000 đ",
-                description: "Với phiên bản chai fresh 500ml, thức uống 'best seller' đỉnh cao mang một diện mạo tươi mới, tiện lợi, phù hợp với bình thường mới và vẫn giữ nguyên vị thanh ngọt của đào, vị chua dịu của cam vàng nguyên vỏ và vị trà đen thơm lừng ly Trà đào cam sả nguyên bản. *Sản phẩm dùng ngon nhất trong ngày. *Sản phẩm mặc định mức đường và không đá."
+                description: "Với phiên bản chai fresh 500ml, thức uống “best seller” đỉnh cao mang một diện mạo tươi mới, tiện lợi, phù hợp với bình thường mới và vẫn giữ nguyên vị thanh ngọt của đào, vị chua dịu của cam vàng nguyên vỏ và vị trà đen thơm lừng ly Trà đào cam sả nguyên bản. *Sản phẩm dùng ngon nhất trong ngày. *Sản phẩm mặc định mức đường và không đá."
             }
         ],
 
@@ -254,45 +254,45 @@ var dataStorage =
         [
             {
                 category: "tra",
-                imgSrc: ["../img/menu/tra/tra-den-matchiato_430281_5d57903f55e745d4b547adbfe75b4e8d.jpg"],
+                imgSrc: ["../img/menu/tra/tra-den-matchiato_430281_5d57903f55e745d4b547adbfe75b4e8d.jpg","../img/menu/tra/1645971956_tra-den-macchiato-lifestyle_c3ac4de69fa24827a27055c9d496fa6f.jpg"],
                 name: "Trà Đen Macchiato",
                 price: "55.000 đ",
-                description: ""
+                description: "Trà đen được ủ mới mỗi ngày, giữ nguyên được vị chát mạnh mẽ đặc trưng của lá trà, phủ bên trên là lớp Macchiato “homemade” bồng bềnh quyến rũ vị phô mai mặn mặn mà béo béo."
             },
             {
                 category: "tra",
-                imgSrc: ["../img/menu/tra/hong-tra-sua-tran-chau_326977_5553515f9fcf44009f3313020e83fbc8.jpg"],
+                imgSrc: ["../img/menu/tra/hong-tra-sua-tran-chau_326977_5553515f9fcf44009f3313020e83fbc8.jpg","../img/menu/tra/1645971848_hong-tra-sua-tran-chau-da-lifestyle_afd569de95294ca1b0705a0cbadfe941.jpg","../img/menu/tra/1645971848_img-9789_a967fe223c284885939b278514dfc2bf.jpg"],
                 name: "Hồng Trà Sữa Trân Châu",
                 price: "55.000 đ",
-                description: ""
+                description: "Thêm chút ngọt ngào cho ngày mới với hồng trà nguyên lá, sữa thơm ngậy được cân chỉnh với tỉ lệ hoàn hảo, cùng trân châu trắng dai giòn có sẵn để bạn tận hưởng từng ngụm trà sữa ngọt ngào thơm ngậy thiệt đã."
             },
             {
                 category: "tra",
-                imgSrc: ["../img/menu/tra/hong-tra-sua-nong_941687_9df07ba13d084c5c8d2dd780c14af4d4.jpg"],
+                imgSrc: ["../img/menu/tra/hong-tra-sua-nong_941687_9df07ba13d084c5c8d2dd780c14af4d4.jpg","../img/menu/tra/1645971578_hong-tra-sua-nong-lifestyle_277ac67cdbe84c749656454b315cc8d1.jpeg"],
                 name: "Hồng Trà Sữa Nóng",
                 price: "55.000 đ",
-                description: ""
+                description: "Từng ngụm trà chuẩn gu ấm áp, đậm đà beo béo bởi lớp sữa tươi chân ái hoà quyện. Trà đen nguyên lá âm ấm dịu nhẹ, quyện cùng lớp sữa thơm béo khó lẫn - hương vị ấm áp chuẩn gu trà, cho từng ngụm nhẹ nhàng, ngọt dịu lưu luyến mãi nơi cuống họng."
             },
             {
                 category: "tra",
-                imgSrc: ["../img/menu/tra/1669736877_tra-sua-oolong-nuong-tran-chau_0e1cad07ca1846819f27cb2a60da7e60.png"],
+                imgSrc: ["../img/menu/tra/1669736877_tra-sua-oolong-nuong-tran-chau_0e1cad07ca1846819f27cb2a60da7e60.png","../img/menu/tra/1647510928_img-9776_497d75ae10dd40f3be3b7b2c9a570482.jpg","../img/menu/tra/1647510917_tra-sua-oolong-nuong-tran-chau-da-lifestyle_9b1abd14ec11439bb3a12d9d8096484e.jpg"],
                 name: "Trà sữa Oolong Nướng Trân Châu",
                 price: "55.000 đ",
-                description: ""
+                description: "Hương vị chân ái đúng gu đậm đà với trà oolong được “sao” (nướng) lâu hơn cho hương vị đậm đà, hòa quyện với sữa thơm béo mang đến cảm giác mát lạnh, lưu luyến vị trà sữa đậm đà nơi vòm họng."
             },
             {
                 category: "tra",
-                imgSrc: ["../img/menu/tra/oolong-nuong-nong_948581_6bd78255e3f344459f0b5cda03aa75d3.jpg"],
+                imgSrc: ["../img/menu/tra/oolong-nuong-nong_948581_6bd78255e3f344459f0b5cda03aa75d3.jpg","../img/menu/tra/1645973234_tra-sua-oolong-nuong-nong-lifestyle_e9b0ba17450147978c4bf503cffa6366.jpg"],
                 name: "Trà sữa Oolong Nướng (Nóng)",
                 price: "55.000 đ",
-                description: ""
+                description: "img/menu/tra/1645973234_tra-sua-oolong-nuong-nong-lifestyle_e9b0ba17450147978c4bf503cffa6366.jpg"
             },
             {
                 category: "tra",
-                imgSrc: ["../img/menu/tra/bottle_oolong_285082_c0dcb40a4e8d4ec1a821d49710fc513c.jpg"],
+                imgSrc: ["../img/menu/tra/bottle_oolong_285082_c0dcb40a4e8d4ec1a821d49710fc513c.jpg","../img/menu/tra/1633147069_photo-2021-10-02-10-56-49_3bcdd071cf054498953c39d65edf1a10.jpg","../img/menu/tra/1633147069_photo-2021-10-02-10-56-55_73573746247c4b8cb183a1567b601d8b.jpg","../img/menu/tra/1633147069_photo-2021-10-02-10-57-00_7b0a56864ad845969e411e6738d6b13c.jpg"],
                 name: "Trà Sữa Oolong Nướng Trân Châu Chai Fresh 500ML",
                 price: "95.000 đ",
-                description: ""
+                description: "Phiên bản chai fresh 500ml mới, The Coffee House tin rằng với diện mạo mới: tiện lợi và phù hợp với bình thường mới này, các tín đồ trà sữa sẽ được thưởng thức hương vị đậm đà, hòa quyện với sữa thơm béo mang đến cảm giác mát lạnh ở bất cứ nơi đâu. *Sản phẩm dùng ngon nhất trong ngày. *Sản phẩm mặc định mức đường và không đá."
             }
         ],
 
@@ -302,21 +302,21 @@ var dataStorage =
             imgSrc: ["../img/menu/cloud/1697442235_cloudfee-hanh-nhan-nuong_ba2462626af44d86acc19997e654a0c3.jpg"],
             name: "CloudFee Hạnh Nhân Nướng",
             price: "49.000 đ",
-            description: "Vị đắng nhẹ từ cà phê phin truyền thống kết hợp Espresso Ý, lẫn chút ngọt ngào của kem sữa và lớp foam trứng cacao, nhấn thêm hạnh nhân nướng thơm bùi, kèm topping thạch cà phê dai giòn mê ly. Tất cả cùng quyện hoà trong một thức uống làm vị giác 'thức giấc', thơm ngon hết nấc."
+            description: "Vị đắng nhẹ từ cà phê phin truyền thống kết hợp Espresso Ý, lẫn chút ngọt ngào của kem sữa và lớp foam trứng cacao, nhấn thêm hạnh nhân nướng thơm bùi, kèm topping thạch cà phê dai giòn mê ly. Tất cả cùng quyện hoà trong một thức uống làm vị giác “thức giấc”, thơm ngon hết nấc."
         },
         {
             category: "cloud",
             imgSrc: ["../img/menu/cloud/1675329314_bg-cloudfee-caramel_107cf598043b4882af9cf2744797f11c.jpg"],
             name: "CloudFee Caramel",
             price: "49.000 đ",
-            description: "Ngon khó cưỡng bởi xíu đắng nhẹ từ cà phê phin truyền thống pha trộn với Espresso lừng danh nước Ý, quyện vị kem sữa và caramel ngọt ngọt, thêm lớp foam trứng cacao bồng bềnh béo mịn, kèm topping thạch cà phê dai giòn nhai cực cuốn. Một thức uống 'điểm mười' cho cả ngày tươi không cần tưới."
+            description: "Ngon khó cưỡng bởi xíu đắng nhẹ từ cà phê phin truyền thống pha trộn với Espresso lừng danh nước Ý, quyện vị kem sữa và caramel ngọt ngọt, thêm lớp foam trứng cacao bồng bềnh béo mịn, kèm topping thạch cà phê dai giòn nhai cực cuốn. Một thức uống “điểm mười” cho cả ngày tươi không cần tưới."
         },
         {
             category: "cloud",
             imgSrc: ["../img/menu/cloud/1675329376_bg-cloudfee-classic_540a54c192f3490ca9dfd3f2b46dcc67.jpg"],
             name: "CloudFee Hà Nội",
             price: "49.000 đ",
-            description: ""
+            description: "Khiến bạn mê mẩn ngay ngụm đầu tiên bởi vị đắng nhẹ của cà phê phin truyền thống kết hợp Espresso Ý, quyện hòa cùng chút ngọt ngào của kem sữa, và thơm béo từ foam trứng cacao. Nhấp một ngụm rồi nhai cùng thạch cà phê dai dai giòn giòn, đúng chuẩn “ngon quên lối về”. CloudFee Classic là món đậm vị cà phê nhất trong bộ sưu tập nhưng không quá đắng, ngậy nhưng không hề ngấy."
         }
     ],
 
@@ -326,14 +326,28 @@ var dataStorage =
             imgSrc: ["../img/menu/cloud/1700837685_tra-sua-oolong-berry-ly-thuy-tinh_a3d9b781b662421fa5dd1efd30fc162a.jpg"],
             name: "CloudTea Oolong Berry",
             price: "69.000 đ",
-            description: ""
+            description: "Cắn một cái, chua chua ngọt ngọt ngon đến từng tế bào với chiếc Mochi Kem Phúc Bồn Tử! Hút một ngụm, mê luôn Trà Oolong Sữa dịu êm quyện vị dâu, cùng lớp foam phô mai phủ vụn bánh quy phô mai mằn mặn. Món không thể thiếu đá, để ngoại hình và chất lượng được đảm bảo."
         },
         {
             category: "cloud",
             imgSrc: ["../img/menu/cloud/1700837665_tra-sua-tra-xanh-tay-bac-ly-thuy-tinh_af143453afb3445c99645acb7dbe9495.jpg"],
             name: "CloudTea Trà Xanh Tây Bắc",
             price: "69.000 đ",
-            description: ""
+            description: "Cắn một cái, chua chua ngọt ngọt ngon đến từng tế bào với chiếc Mochi Kem Phúc Bồn Tử! Hút một ngụm, mê luôn Trà Oolong Sữa dịu êm quyện vị dâu, cùng lớp foam phô mai phủ vụn bánh quy phô mai mằn mặn. Món không thể thiếu đá, để ngoại hình và chất lượng được đảm bảo."
+        },
+        {
+            category: "cloud",
+            imgSrc: ["../img/menu/cloud/1675355728_cheese_97cf655f4c9c4b1fa492c16f160a052e.jpg"],
+            name: "CloudTea Oolong Nướng Kem Cheese",
+            price: "55.000 đ",
+            description: "Hội mê cheese sao có thể bỏ lỡ chiếc trà sữa siêu mlem này. Món đậm vị Oolong nướng - nền trà được yêu thích nhất hiện nay, quyện thêm kem sữa thơm béo. Đặc biệt, chinh phục ngay fan ghiền cheese bởi lớp foam phô mai mềm tan mằn mặn. Càng ngon cực với thạch Oolong nướng nguyên chất giòn dai nhai siêu thích."
+        },
+        {
+            category: "cloud",
+            imgSrc: ["../img/menu/cloud/1675329651_bg-cloudtea-daxay_accec9eedd094ade8047dc62c6f90156.jpg"],
+            name: "CloudTea Oolong Nướng Kem Dừa Đá Xay",
+            price: "55.000 đ",
+            description: "Trà sữa đá xay - phiên bản nâng cấp đầy mới lạ của trà sữa truyền thống, lần đầu xuất hiện tại Nhà. Ngon khó cưỡng với lớp kem dừa béo ngậy nhưng không ngấy, thêm vụn bánh quy phô mai giòn tan vui miệng. Trà Oolong nướng rõ hương đậm vị, quyện với sữa dừa beo béo, được xay mịn cùng đá, mát rượi trong tích tắc. Đặc biệt, thạch Oolong nướng nguyên chất giúp giữ trọn vị đậm đà của trà sữa đến giọt cuối cùng."
         }
     ],
 
@@ -344,42 +358,42 @@ var dataStorage =
                 imgSrc: ["../img/menu/hitea/1686716517_kombucha-dao_70ae9c30b2a64803b782226237cf150e.jpg"],
                 name: "Hi-Tea Đào Kombucha",
                 price: "59.000 đ",
-                description: ""
+                description: "Trà hoa Hibiscus 0% caffeine chua nhẹ, kết hợp cùng trà lên men Kombucha hoàn toàn tự nhiên và Đào thanh mát tạo nên Hi-Tea Đào Kombucha chua ngọt cực cuốn. Đặc biệt Kombucha Detox giàu axit hữu cơ, Đào nhiều chất xơ giúp thanh lọc cơ thể và hỗ trợ giảm cân hiệu quả. Lưu ý: Khuấy đều trước khi dùng"
             },
             {
                 category: "hitea",
                 imgSrc: ["../img/menu/hitea/1686716508_kombucha-yuzu_fefa247b096648b4981929ef7ccb3923.jpg"],
                 name: "Hi-Tea Yuzu Kombucha",
                 price: "59.000 đ",
-                description: ""
+                description: "Trà hoa Hibiscus 0% caffeine thanh mát, hòa quyện cùng trà lên men Kombucha 100% tự nhiên và mứt Yuzu Marmalade (quýt Nhật) mang đến hương vị chua chua lạ miệng. Đặc biệt, Hi-Tea Yuzu Kombucha cực hợp cho team thích detox, muốn sáng da nhờ Kombucha Detox nhiều chất chống oxy hoá cùng Yuzu giàu vitamin C. Lưu ý: Khuấy đều trước khi dùng"
             },
             {
                 category: "hitea",
-                imgSrc: ["../img/menu/hitea/1669736859_hi-tea-yuzu-tran-chau_f8fe19a58e884a748fbd460de8cb2d02.png"],
+                imgSrc: ["../img/menu/hitea/1669736859_hi-tea-yuzu-tran-chau_f8fe19a58e884a748fbd460de8cb2d02.png","../img/menu/hitea/1650530352_hi-tea-yuzu-2_fa789e64a00e42d0bfa2018795c872e4.jpg","../img/menu/hitea/1650530352_hi-tea-yuzu_cb785a6a7a5e4dd999aca64e1ff145c5.jpg"],
                 name: "Hi-Tea Yuzu Trân Châu",
                 price: "49.000 đ",
-                description: ""
+                description: "Không chỉ nổi bật với sắc đỏ đặc trưng từ trà hoa Hibiscus, Hi-Tea Yuzu còn gây ấn tượng với topping Yuzu (quýt Nhật) lạ miệng, kết hợp cùng trân châu trắng dai giòn sần sật, nhai vui vui."
             },
             {
                 category: "hitea",
                 imgSrc: ["../img/menu/hitea/1669736893_hi-tea-vai_5b6d0f757f2c44328f84fcb5fb972256.png", "../img/menu/hitea/1650529463_hi-tea-vai_f6c6a8ebc4bd492cbd8404a213155cbd.jpg", "../img/menu/hitea/1650529462_hi-tea-vai-1_a8dfcda67a8846db9604be911efb26c6.jpg"],
                 name: "Hi-Tea Vải",
                 price: "49.000 đ",
-                description: ""
+                description: "Chút ngọt ngào của Vải, mix cùng vị chua thanh tao từ trà hoa Hibiscus, mang đến cho bạn thức uống đúng chuẩn vừa ngon, vừa healthy."
             },
             {
                 category: "hitea",
-                imgSrc: ["../img/menu/hitea/1669737919_hi-tea-dao_db93192ba8274a7dbaef69bf127c206d.jpg"],
+                imgSrc: ["../img/menu/hitea/1669737919_hi-tea-dao_db93192ba8274a7dbaef69bf127c206d.jpg","../img/menu/hitea/1650530187_sb-dao-hi-tea-dao_aaed3b45619848438887c9e11f5075ed.jpg","../img/menu/hitea/1650530186_tra-hi-tea-topping_52305b1f970f41c7b017a67228332657.jpg"],
                 name: "Hi-Tea Đào",
                 price: "49.000 đ",
-                description: ""
+                description: "Sự kết hợp ăn ý giữa Đào cùng trà hoa Hibiscus, tạo nên tổng thể hài hoà dễ gây “thương nhớ” cho team thích món thanh mát, có vị chua nhẹ."
             },
             {
                 category: "hitea",
                 imgSrc: ["../img/menu/hitea/1705920578_hi-tea-dau-tay-man-muoi-tran-chau_367a473a624b4069b36c67d0ba55d078.jpg"],
                 name: "Hi-Tea Dâu Tây Mận Muối Trân Châu",
                 price: "49.000 đ",
-                description: ""
+                description: "Mặn ngọt có nhau nhờ sự kết hợp của trà hoa Hibiscus chua thanh, mận muối mằn mặn, dâu tây tươi Đà Lạt cô đặc ngọt dịu và trân châu trắng giòn dai. Nhấp một ngụm mát rượi như lạc giữa vườn xuân."
             }
         ],
 
@@ -390,7 +404,7 @@ var dataStorage =
                 imgSrc: ["../img/menu/hitea/1705920511_da-tuyet-man-muoi-tran-chau_f62c10418bcd44ee9080f991c7ac0f6b.jpg"],
                 name: "Hi-Tea Đá Tuyết Mận Muối Trân Châu",
                 price: "59.000 đ",
-                description: ""
+                description: "“Have a mặn mà” từ mận muối xay cùng đá tuyết, quyện với vị trà hoa Hibiscus chua dịu và trân châu trắng giòn dai, Hi-Tea Đá Tuyết Mận Muối Trân Châu Trắng là thức uống “must try” cho những chuyến du xuân."
             }
         ],
 
@@ -400,28 +414,28 @@ var dataStorage =
             imgSrc: ["../img/menu/traxanhchoco/1697450388_tx-latte_ef8fdb94fb2a4691b0cc909188b77829.jpg"],
             name: "Trà Xanh Latte",
             price: "45.000 đ",
-            description: ""
+            description: "Không cần đến Tây Bắc mới cảm nhận được sự trong trẻo của núi rừng, khi Trà Xanh Latte từ Nhà được chắt lọc từ những búp trà xanh mướt, ủ mình trong sương sớm. Trà xanh Tây Bắc vị thanh, chát nhẹ hoà cùng sữa tươi nguyên kem ngọt béo tạo nên hương vị dễ uống, dễ yêu. Đây là thức uống healthy, giúp bạn tỉnh táo một cách êm mượt, xoa dịu những căng thẳng."
         },
         {
             category: "traxanh-chocolate",
             imgSrc: ["../img/menu/traxanhchoco/1697450393_tx-latte-nong_3be6c0f019314336918968d951e588f2.jpg"],
             name: "Trà Xanh Latte (Nóng)",
             price: "45.000 đ",
-            description: ""
+            description: "Trà Xanh Latte (Nóng) là phiên bản rõ vị trà nhất. Nhấp một ngụm, bạn chạm ngay vị trà xanh Tây Bắc chát nhẹ hoà cùng sữa nguyên kem thơm béo, đọng lại hậu vị ngọt ngào, êm dịu. Không chỉ là thức uống tốt cho sức khoẻ, Trà Xanh Latte (Nóng) còn là cái ôm ấm áp của đồng bào Tây Bắc gửi cho người miền xuôi."
         },
         {
             category: "traxanh-chocolate",
             imgSrc: ["../img/menu/traxanhchoco/1697450399_tx-duong-den_3342d63e65df4bd7a264ca681b9e30f1.jpg"],
             name: "Trà Xanh Đường Đen",
             price: "55.000 đ",
-            description: ""
+            description: "Trà Xanh Đường Đen với hiệu ứng phân tầng đẹp mắt, như phác hoạ núi đồi Tây Bắc bảng lảng trong sương mây, thấp thoáng những nương chè xanh ngát. Từng ngụm là sự hài hoà từ trà xanh đậm đà, đường đen ngọt ngào, sữa tươi thơm béo. Khuấy đều trước khi dùng, để thưởng thức đúng vị"
         },
         {
             category: "traxanh-chocolate",
             imgSrc: ["../img/menu/traxanhchoco/1697450407_tx-frosty_effb42ad21a54240b26ea1118c8d9d44.jpg"],
             name: "Frosty Trà Xanh",
             price: "59.000 đ",
-            description: ""
+            description: "Đá Xay Frosty Trà Xanh như lời mời mộc mạc, ghé thăm Tây Bắc vào những ngày tiết trời se lạnh, núi đèo mây phủ. Vị chát dịu, ngọt thanh của trà xanh Tây Bắc kết hợp đá xay sánh mịn, whipping cream bồng bềnh và bột trà xanh trên cùng thêm đậm vị. Đây không chỉ là thức uống mát lạnh bật mood, mà còn tốt cho sức khoẻ nhờ giàu vitamin và các chất chống oxy hoá."
         }
     ],
 
@@ -432,14 +446,14 @@ var dataStorage =
                 imgSrc: ["../img/menu/traxanhchoco/chocolatenong_949029_826f20e85d5b48b4b5a6443c9a44321f.jpg"],
                 name: "Chocolate Nóng",
                 price: "55.000 đ",
-                description: ""
+                description: "Bột chocolate nguyên chất hoà cùng sữa tươi béo ngậy. Vị ngọt tự nhiên, không gắt cổ, để lại một chút đắng nhẹ, cay cay trên đầu lưỡi."
             },
             {
                 category: "traxanh-chocolate",
                 imgSrc: ["../img/menu/traxanhchoco/chocolate-da_877186_e3ecacc6bddc46788c562a9dc898e2d5.jpg"],
                 name: "Chocolate Đá",
                 price: "55.000 đ",
-                description: ""
+                description: "Bột chocolate nguyên chất hoà cùng sữa tươi béo ngậy. Vị ngọt tự nhiên, không gắt cổ, để lại một chút đắng nhẹ, cay cay trên đầu lưỡi."
             }
         ],
 
@@ -698,66 +712,3 @@ var dataStorage =
             }
         ]
 };
-
-
-// var itemIdCounter = 1;
-
-// function createProductItem(imgSrc, name, price, description) {
-//     var itemId = 'proc' + itemIdCounter++;
-//     var item = document.createElement('div');
-//     item.classList.add('col-xxl-4', 'col-xl-4', 'col-lg-4', 'col-md-6');
-//     item.innerHTML = `
-//         <div id="${itemId}" class="item">
-//             <div class="item-img"><a href="./product.html"><img loading="lazy" class="img-src" src="${imgSrc}"></a></div>
-//             <div class="item-info">
-//                 <a href="./product.html">${name}</a>
-//                 <div class="item-price">${price}</div>
-//                 <div class="description">${description}</div>
-//             </div>
-//         </div>
-//     `;
-//     return item;
-// }
-// function appendProductItems(containerId, data) {
-//     var container = document.getElementById(containerId);
-//     if (container) {
-//         data.forEach(function (product) {
-//             var item = createProductItem(product.imgSrc[0], product.name, product.price, product.description);
-//             container.appendChild(item);
-//         });
-//     }
-// }
-
-// //Category Cà Phê
-// appendProductItems('caphehighlight', dataStorage['caphehighlightData']);
-// appendProductItems('caphevn', dataStorage['caphevnData']);
-// appendProductItems('caphemay', dataStorage['caphemayData']);
-// appendProductItems('coldbrew', dataStorage['coldbrewData']);
-
-// //Category Trà
-// appendProductItems('tratraicay', dataStorage['tratraicayData']);
-// appendProductItems('macchiato', dataStorage['macchiatoData']);
-
-// //Category Cloud
-// appendProductItems('cloudfee', dataStorage['cloudfeeData']);
-// appendProductItems('cloudteamochi', dataStorage['cloudteamochiData']);
-
-// //Category Hitea
-// appendProductItems('hiteatra', dataStorage['hiteatraData']);
-// appendProductItems('hiteadatuyet', dataStorage['hiteadatuyetData']);
-
-// //Category Trà xanh - Chocolate
-// appendProductItems('traxanh', dataStorage['traxanhData']);
-// appendProductItems('chocolate', dataStorage['chocolateData']);
-
-// //Category Đá Xay
-// appendProductItems('daxayfrosty', dataStorage['daxayfrostyData']);
-
-// //Category Bánh - Snack
-// appendProductItems('banhman', dataStorage['banhmanData']);
-// appendProductItems('banhngot', dataStorage['banhngotData']);
-// appendProductItems('banhpastry', dataStorage['banhpastryData']);
-
-// //Category Tại nhà
-// appendProductItems('caphetainha', dataStorage['caphetainhaData']);
-// appendProductItems('chaifresh0da', dataStorage['chaifresh0daData']);
