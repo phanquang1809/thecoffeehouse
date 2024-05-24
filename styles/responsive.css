@@ -7,6 +7,10 @@
     .menu-blog {
         padding: 30px 200px !important;
     }
+    .store-detail
+    {
+        width: 32%;
+    }
 }
 
 @media screen and (max-width:1200px) {
@@ -18,6 +22,7 @@
     .nav-link {
         font-size: 14px !important;
     }
+ 
 }
 
 @media screen and (max-width:991px) {
@@ -62,23 +67,15 @@
     .product-detail {
         margin-top: 20px;
     }
-    .signature-img
+    .store-detail
     {
+        width: 100%;
         margin-bottom: 20px;
     }
-    .signature-img,.signature-content
-{
-    width: 100%;
-}
-.store-list .store-item
-{
-    width: 100%;
-    margin: 20px 0;
-}
-.store-list .store-item img
-{
-    height: 300px;
-}
+    .store-img
+    {
+        height: 300px;
+    }
 }
 
 @media screen and (max-width:767px) {
