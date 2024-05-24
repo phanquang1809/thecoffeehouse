@@ -614,12 +614,12 @@ header {
     width: 40px;
     height: 40px;
     color: #fff;
-    background-color: #673340;
+    background-color: #e57905;
     border-radius: 50%;
     font-weight: bold;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain; border: 1px solid black;
+    background-size: contain; border: 1px solid #fff3d7;
     margin-right: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -638,6 +638,14 @@ header {
     display: flex;
     flex-direction: column;
     
+}
+.customer-detail .fa-star.like
+{
+    color: #FFD43B !important;
+}
+.customer-detail .fa-star.no-like
+{
+    color: #ccc !important;
 }
 .customer-detail .rating
 {
