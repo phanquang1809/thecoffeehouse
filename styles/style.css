@@ -779,7 +779,7 @@ footer {
 .footer-title {
     font-weight: bold;
     font-size: 18px;
-    color: #fff;
+    color: #FFF7E7;
     margin-top: 0;
     margin-bottom: 16px;
 }
@@ -793,25 +793,6 @@ footer {
     color: #fff !important;
 }
 
-.footer-hotline {
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 24px;
-}
-
-.footer-hotline p img {
-    margin-right: 8px;
-    width: 20px;
-    height: 20px;
-}
-
-.footer-address {
-    color: #fff;
-    margin-bottom: 8px;
-    font-size: 12px;
-}
-
 .social {
     padding-left: 0;
     display: flex;
@@ -820,13 +801,21 @@ footer {
 
 .social>li {
     padding-right: 10px;
-}
-
-.social>li:first-child {
     font-size: 30px;
     padding-bottom: 2px;
 }
-
+.social>li i {
+    color: white;
+}
+.copyright
+{
+    padding-top: 20px; 
+}
+.copyright > p
+{
+    color: #FFF7E7;
+    text-align: center;
+}
 .description {
     display: none;
 }
