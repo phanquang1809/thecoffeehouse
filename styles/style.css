@@ -618,6 +618,7 @@ header {
     background-repeat: no-repeat;
     background-size: contain; border: 1px solid black;
     margin-right: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .comment-item .customer-name
 {
