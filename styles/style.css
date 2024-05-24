@@ -116,7 +116,10 @@ header {
     z-index: 1;
 }
 
-
+.navbar-light .navbar-toggler
+{
+    border-color:rgba(255, 255, 255, 0.1)  !important;
+}
 .header-carousel {
     transform: translateY(-60px);
     position: relative;
