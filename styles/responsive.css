@@ -62,6 +62,23 @@
     .product-detail {
         margin-top: 20px;
     }
+    .signature-img
+    {
+        margin-bottom: 20px;
+    }
+    .signature-img,.signature-content
+{
+    width: 100%;
+}
+.store-list .store-item
+{
+    width: 100%;
+    margin: 20px 0;
+}
+.store-list .store-item img
+{
+    height: 300px;
+}
 }
 
 @media screen and (max-width:767px) {
