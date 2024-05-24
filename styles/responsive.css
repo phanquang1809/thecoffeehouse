@@ -34,7 +34,8 @@
     .form-select {
         display: block !important;
         margin-bottom: 20px;
-        border-radius: 10px !important;
+        border-radius: 0 !important;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
     .dropdown {
@@ -93,5 +94,9 @@
 
     .blog-info {
         width: 100% !important;
+    }
+    .menu-option
+    {
+        top: 52px !important;
     }
 }

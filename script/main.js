@@ -114,55 +114,34 @@ function activeCategory(category) {
     sidebarItem.classList.add('active-color')
   }
 }
-//hiển thị sản phẩm theo danh mục
-// function showProduct(category) {
-//   var listCategory = document.querySelectorAll('.category')
-//   var catItem = document.getElementById(category.replace('category-', ''))
-//   listCategory.forEach((cat) => {
-//     if (category != 'all')
-//       cat.style.display = 'none'
-//     else {
-//       cat.style.display = 'flex'
-//     }
-//   })
-//   if (categoryLv1.hasOwnProperty(category)) {
-//     var catProc = catItem.querySelectorAll('.category')
-//     catProc.forEach((proc) => {
-//       proc.style.display = 'flex'
-//     })
-//   }
-//   else {
-//     catItem.style.display = 'flex'
-//   }
-// }
 function showProduct(category) {
   var listCategory = document.querySelectorAll('.category');
   var catItem = document.getElementById(category.replace('category-', ''));
 
   listCategory.forEach((cat) => {
-    cat.classList.remove('show'); // Đảm bảo loại bỏ lớp 'show' trước khi thêm
+    cat.classList.remove('show');
     if (category !== 'all') {
-      cat.style.display = 'none'; // Ẩn tất cả các phần tử category nếu không phải là 'all'
+      cat.style.display = 'none'; 
     } else {
-      cat.classList.add('show'); // Thêm lớp 'show' để kích hoạt hiệu ứng chuyển đổi
+      cat.classList.add('show'); 
     }
   });
 
   if (categoryLv1.hasOwnProperty(category)) {
     var catProc = catItem.querySelectorAll('.category');
     catProc.forEach((proc) => {
-      proc.classList.remove('show'); // Đảm bảo loại bỏ lớp 'show' trước khi thêm
+      proc.classList.remove('show');
       proc.style.display = 'flex';
       setTimeout(() => {
-        proc.classList.add('show'); // Thêm lớp 'show' để kích hoạt hiệu ứng chuyển đổi
-      }, 10); // Đợi một khoảng thời gian rất nhỏ trước khi thêm lớp 'show'
+        proc.classList.add('show'); 
+      }, 10); 
     });
   } else {
-    catItem.classList.remove('show'); // Đảm bảo loại bỏ lớp 'show' trước khi thêm
+    catItem.classList.remove('show'); 
     catItem.style.display = 'flex';
     setTimeout(() => {
-      catItem.classList.add('show'); // Thêm lớp 'show' để kích hoạt hiệu ứng chuyển đổi
-    }, 10); // Đợi một khoảng thời gian rất nhỏ trước khi thêm lớp 'show'
+      catItem.classList.add('show'); 
+    }, 10); 
   }
 }
 
@@ -182,7 +161,11 @@ if(selectMenu)
       var selectedOption = this.options[this.selectedIndex]; 
       showProduct(selectedOption.value)
       updateUrl(selectedOption.value)
-  });
+      window.scrollTo({
+        top: 40,
+        behavior: 'smooth'
+      });
+    });
   }
 
 

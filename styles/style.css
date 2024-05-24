@@ -755,7 +755,12 @@ header {
 .main {
     margin-top: 40px;
 }
-
+.menu-option
+{
+    position: sticky;
+    top: 60px;
+    z-index: 999;
+}
 /* footer */
 footer {
     background: #000000D9;
