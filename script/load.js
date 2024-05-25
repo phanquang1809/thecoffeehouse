@@ -1,11 +1,11 @@
 function logoLoading() {
   document.querySelector('.logo-overlay').style.display = 'block';
   var img = document.querySelector('.logo-overlay img');
-  var src = img.src;
-  img.src = '';
-  img.src = src;
   setTimeout(function () {
-      document.querySelector('.logo-overlay').style.display = 'none';
+    document.querySelector('.logo-overlay').style.display = 'none';
   }, 2500);
+  img.src = '';
+  img.src = '../img/coffee_logo.gif';
 }
 window.onload = logoLoading();
+
