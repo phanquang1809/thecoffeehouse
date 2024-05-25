@@ -1,5 +1,4 @@
 var itemIdCounter = 1;
-
 function createProductItem(imgSrc, name, price, description) {
     var itemId = 'proc' + itemIdCounter++;
     var item = document.createElement('div');
@@ -16,10 +15,10 @@ function createProductItem(imgSrc, name, price, description) {
     `;
     return item;
 }
-function appendProductItems(containerId, data) {
+function appendProductItems(containerId, dataStorage) {
     var container = document.getElementById(containerId);
     if (container) {
-        data.forEach(function (product) {
+        dataStorage.forEach(function (product) {
             var item = createProductItem(product.imgSrc[0], product.name, product.price, product.description);
             container.appendChild(item);
         });
@@ -27,35 +26,35 @@ function appendProductItems(containerId, data) {
 }
 
 //Category Cà Phê
-appendProductItems('caphehighlight', dataStorage.caphehighlightData);
-appendProductItems('caphevn', dataStorage.caphevnData);
-appendProductItems('caphemay', dataStorage.caphemayData);
-appendProductItems('coldbrew', dataStorage.coldbrewData);
+appendProductItems('caphehighlight', dataStorage.caphehighlight);
+appendProductItems('caphevn', dataStorage.caphevn);
+appendProductItems('caphemay', dataStorage.caphemay);
+appendProductItems('coldbrew', dataStorage.coldbrew);
 
 //Category Trà
-appendProductItems('tratraicay', dataStorage.tratraicayData);
-appendProductItems('macchiato', dataStorage.macchiatoData);
+appendProductItems('tratraicay', dataStorage.tratraicay);
+appendProductItems('macchiato', dataStorage.macchiato);
 
 //Category Cloud
-appendProductItems('cloudfee', dataStorage.cloudfeeData);
-appendProductItems('cloudteamochi', dataStorage.cloudteamochiData);
+appendProductItems('cloudfee', dataStorage.cloudfee);
+appendProductItems('cloudteamochi', dataStorage.cloudteamochi);
 
 //Category Hitea
-appendProductItems('hiteatra', dataStorage.hiteatraData);
-appendProductItems('hiteadatuyet', dataStorage.hiteadatuyetData);
+appendProductItems('hiteatra', dataStorage.hiteatra);
+appendProductItems('hiteadatuyet', dataStorage.hiteadatuyet);
 
 //Category Trà xanh - Chocolate
-appendProductItems('traxanh', dataStorage.traxanhData);
-appendProductItems('chocolate', dataStorage.chocolateData);
+appendProductItems('traxanh', dataStorage.traxanh);
+appendProductItems('chocolate', dataStorage.chocolate);
 
 //Category Đá Xay
-appendProductItems('daxayfrosty', dataStorage.daxayfrostyData);
+appendProductItems('daxayfrosty', dataStorage.daxayfrosty);
 
 //Category Bánh - Snack
-appendProductItems('banhman', dataStorage.banhmanData);
-appendProductItems('banhngot', dataStorage.banhngotData);
-appendProductItems('banhpastry', dataStorage.banhpastryData);
+appendProductItems('banhman', dataStorage.banhman);
+appendProductItems('banhngot', dataStorage.banhngot);
+appendProductItems('banhpastry', dataStorage.banhpastry);
 
 //Category Tại nhà
-appendProductItems('caphetainha', dataStorage.caphetainhaData);
-appendProductItems('chaifresh0da', dataStorage.chaifresh0daData);
+appendProductItems('caphetainha', dataStorage.caphetainha);
+appendProductItems('chaifresh0da', dataStorage.chaifresh0da);

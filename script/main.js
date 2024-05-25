@@ -167,56 +167,19 @@ if(selectMenu)
       });
     });
   }
-
-
 //Đẩy thông tin sản phẩm được click xuống localstorage
 var items = document.querySelectorAll('.item')
 items.forEach((item) => {
-  item.addEventListener('click', () => {
-    const productName = item.querySelector('.item-info a').textContent
-    imgList = handleProductClick(productName).imgSrc
-    localStorage.setItem("imgList", JSON.stringify(imgList))
-    saveProcduct(item.id)
+  item.addEventListener('click', (e) => {
+    const itemName = e.currentTarget.querySelector(".item-info a").textContent;
+    for(var categoryData in dataStorage)
+      {
+        const itemData = dataStorage[categoryData].find(item => item.name === itemName);
+        if(itemData)
+          localStorage.setItem("productDetail", JSON.stringify(itemData));
+      }
   })
 })
-function handleProductClick(productName) {
-  let product = null;
-
-  for (const category in dataStorage) {
-    product = dataStorage[category].find(item => item.name === productName);
-    if (product) break;
-  }
-
-  if (product) {
-    return product
-    // Thực hiện các hành động khác với dữ liệu sản phẩm ở đây
-  } else {
-    console.log('Product not found');
-  }
-}
-//Đẩy product được click xuống localStorage
-function saveProcduct(id) {
-  var item = document.getElementById(id)
-  var cat = item.closest('.category').querySelector('.category-info')
-  var parentId = item.parentElement.parentElement.id
-  var catTitle = cat.textContent
-  var catLink = cat.href
-  var info = item.querySelector('.item-info a').textContent
-  var img = item.querySelector('.img-src').src
-  var price = item.querySelector('.item-price').textContent
-  var desc = item.querySelector('.description').textContent
-  let productDatas = {
-    info,
-    price,
-    img,
-    id,
-    catTitle,
-    catLink,
-    desc,
-    parentId
-  }
-  localStorage.setItem("proc", JSON.stringify(productDatas))
-}
 //Coffee Story
 var pageTabItems = document.querySelectorAll('.page-tab-item')
 pageTabItems.forEach((item) => {
