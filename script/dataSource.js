@@ -361,7 +361,7 @@ var dataStorage =
                 imgSrc: ["../img/menu/tra/oolong-nuong-nong_948581_6bd78255e3f344459f0b5cda03aa75d3.jpg","../img/menu/tra/1645973234_tra-sua-oolong-nuong-nong-lifestyle_e9b0ba17450147978c4bf503cffa6366.jpg"],
                 name: "Trà sữa Oolong Nướng (Nóng)",
                 price: "55.000 đ",
-                description: "img/menu/tra/1645973234_tra-sua-oolong-nuong-nong-lifestyle_e9b0ba17450147978c4bf503cffa6366.jpg"
+                description: "Đậm đà chuẩn gu và ấm nóng - bởi lớp trà oolong nướng đậm vị hoà cùng lớp sữa thơm béo. Hương vị chân ái đúng gu đậm đà - trà oolong được *sao* (nướng) lâu hơn cho vị đậm đà, hoà quyện với sữa thơm ngậy. Cho từng ngụm ấm áp, lưu luyến vị trà sữa đậm đà mãi nơi cuống họng."
             },
             {
                 categoryParent: "tra",
@@ -874,16 +874,16 @@ var dataStorage =
                 imgSrc: ["../img/menu/caphe/bottlecfsd_496652_2c8559df23e740f3bb1b74a01975076c.jpg", "../img/menu/caphe/1633146194_photo-2021-10-02-10-42-28_5e75eafee9ec4e6f93b017b55fc01a08.jpg", "../img/menu/caphe/1633146193_photo-2021-10-02-10-42-46_f81d6b571f834783b3cfae1b0d3cb69b.jpg", "../img/menu/caphe/1633146193_photo-2021-10-02-10-42-41_d96a460b250f466d96a9054ed20a08d4.jpg"],
                 name: "Cà Phê Sữa Đá Chai Fresh 250ML",
                 price: "75.000 đ",
-                description: ""
+                description: "Vẫn là hương vị cà phê sữa đậm đà quen thuộc của The Coffee House nhưng khoác lên mình một chiếc áo mới tiện lợi hơn, tiết kiệm hơn phù hợp với bình thường mới, giúp bạn tận hưởng một ngày dài trọn vẹn. *Sản phẩm dùng ngon nhất trong ngày. *Sản phẩm mặc định mức đường và không đá."
             },
             {
                 categoryParent: "tainha",
                 category:"chaifresh0da",
                 categoryName:"Chai Fresh Không Đá",
-                imgSrc: ["../img/menu/tra/bottle_tradao_836487_26e2fa52f31b4822a6f2c706a77d75f1.jpg"],
+                imgSrc: ["../img/menu/tra/bottle_tradao_836487_26e2fa52f31b4822a6f2c706a77d75f1.jpg", "../img/menu/tra/1633147051_photo-2021-10-02-10-52-45_7ba8f4710d204b8c877d9eea317cf760.jpg", "../img/menu/tra/1633147050_photo-2021-10-02-10-52-44_6524beea54404200a34ca1fc7123f489.jpg", "../img/menu/tra/1633147051_photo-2021-10-02-10-56-21_2895e76c295c45c39a5abab519c6cdba.jpg"],
                 name: "Trà Đào Cam Sả Chai Fresh 500ML",
                 price: "105.000 đ",
-                description: ""
+                description: "Với phiên bản chai fresh 500ml, thức uống “best seller” đỉnh cao mang một diện mạo tươi mới, tiện lợi, phù hợp với bình thường mới và vẫn giữ nguyên vị thanh ngọt của đào, vị chua dịu của cam vàng nguyên vỏ và vị trà đen thơm lừng ly Trà đào cam sả nguyên bản. *Sản phẩm dùng ngon nhất trong ngày. *Sản phẩm mặc định mức đường và không đá."
             },
             {
                 categoryParent: "tainha",
@@ -892,7 +892,7 @@ var dataStorage =
                 imgSrc: ["../img/menu/tra/bottle_oolong_285082_c0dcb40a4e8d4ec1a821d49710fc513c.jpg"],
                 name: "Trà Sữa Oolong Nướng Trân Châu Chai Fresh 500ML",
                 price: "95.000 đ",
-                description: ""
+                description: "Phiên bản chai fresh 500ml mới, The Coffee House tin rằng với diện mạo mới: tiện lợi và phù hợp với bình thường mới này, các tín đồ trà sữa sẽ được thưởng thức hương vị đậm đà, hòa quyện với sữa thơm béo mang đến cảm giác mát lạnh ở bất cứ nơi đâu. *Sản phẩm dùng ngon nhất trong ngày. *Sản phẩm mặc định mức đường và không đá."
             }
         ]
 };
