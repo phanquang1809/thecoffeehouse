@@ -142,7 +142,6 @@ function appendRelatedProductItems(containerId, dataStorage) {
     container.style.display = 'flex'
     for(var category in dataStorage)
       {
-        console.log(dataStorage[category]);
         var filteredItems = dataStorage[category].filter(function (product) {
           return product.categoryParent === data.categoryParent && product.name !== data.name;
         });
