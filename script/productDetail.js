@@ -242,3 +242,18 @@ stars.forEach((starItem, index) => {
     });
   });
 });
+
+const quantity=document.querySelector('.qty')
+const increse=document.querySelector('.increse')
+const decrese=document.querySelector('.decrese')
+const changeQty=(number)=>{
+  if(Number(quantity.value)==1&&number==-1) return;
+  quantity.value=Number(quantity.value)+number;
+
+}
+increse.onclick=()=>{
+  changeQty(1);
+};
+decrese.onclick=()=>{
+  changeQty(-1);
+};
