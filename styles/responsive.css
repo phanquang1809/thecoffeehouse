@@ -114,3 +114,15 @@
         top: 52px !important;
     }
 }
+@media screen and (max-width:479px)
+{
+    .navbar-brand {
+        left: 0;
+        transform: none;
+        width: fit-content;
+    }
+    .product-topping-item
+    {
+        font-size: 14px !important;
+    }
+}
