@@ -917,10 +917,12 @@ footer {
 {
     display: flex;
     align-items: center;
+    gap: 2px;
 }
 .qty,.increse,.decrese
 {
     border: 1px solid #ccc;
+    border-radius: 4px;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -928,16 +930,6 @@ footer {
     background-color: transparent;
 }
 
-.increse
-{
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-}
-.decrese
-{
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-}
 .product-cart {
     background-color: #E57905;
     border-radius: 8px;
